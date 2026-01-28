@@ -486,6 +486,7 @@ def _clean_address(raw_address: str) -> str:
       1. Remove o prefixo de categoria (ex: "Academia · ", "Sorvete · ")
       2. Corrige número antes do logradouro (ex: "564 Rua X" -> "Rua X, 564")
       3. Remove artefatos de formatação (dois-pontos soltos, espaços extras)
+      4. Padroniza abreviações (ex: "Rua" -> "R.", "Avenida" -> "Av.")
 
     Args:
         raw_address: Endereço bruto extraído do card.
@@ -538,6 +539,20 @@ def _clean_address(raw_address: str) -> str:
     address = re.sub(r'\s*:\s*', ' ', address)
     # Remove espaços duplicados
     address = re.sub(r'\s+', ' ', address).strip()
+
+    # --- Etapa 4: Padronizar abreviações ---
+    # Converte formas por extenso para abreviação padrão
+    abbreviations = {
+        r'\bRua\b': 'R.',
+        r'\bAvenida\b': 'Av.',
+        r'\bAlameda\b': 'Al.',
+        r'\bTravessa\b': 'Tv.',
+        r'\bPraça\b': 'Pç.',
+        r'\bRodovia\b': 'Rod.',
+        r'\bEstrada\b': 'Estr.',
+    }
+    for pattern, abbrev in abbreviations.items():
+        address = re.sub(pattern, abbrev, address)
 
     return address
 

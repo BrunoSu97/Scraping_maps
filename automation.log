@@ -1,349 +1,39 @@
-2026-01-28 16:18:58 [INFO] ============================================================
-2026-01-28 16:18:58 [INFO] INÍCIO DA AUTOMAÇÃO RPA - GOOGLE MAPS
-2026-01-28 16:18:58 [INFO] Cidade alvo: São Paulo
-2026-01-28 16:18:58 [INFO] Tipos de estabelecimento: ['academia', 'restaurante', 'sorveteria']
-2026-01-28 16:18:58 [INFO] Máximo por tipo: 20
-2026-01-28 16:18:58 [INFO] ============================================================
-2026-01-28 16:18:58 [INFO] Inicializando o Chrome WebDriver...
-2026-01-28 16:18:58 [DEBUG] Modo visível ativado (com interface gráfica).
-2026-01-28 16:19:03 [CRITICAL] Falha crítica na automação: [WinError 193] %1 não é um aplicativo Win32 válido
-2026-01-28 16:19:03 [INFO] ============================================================
-2026-01-28 16:19:03 [INFO] AUTOMAÇÃO FINALIZADA — Tempo total: 4.9s
-2026-01-28 16:19:03 [INFO] Resultados: 0 estabelecimentos
-2026-01-28 16:19:03 [INFO] Arquivos gerados: c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\resultados.json
-2026-01-28 16:19:03 [INFO]                   c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\resultados.xlsx
-2026-01-28 16:19:03 [INFO] Log completo:     c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\automation.log
-2026-01-28 16:19:03 [INFO] ============================================================
-2026-01-28 16:20:10 [INFO] ============================================================
-2026-01-28 16:20:10 [INFO] INÍCIO DA AUTOMAÇÃO RPA - GOOGLE MAPS
-2026-01-28 16:20:10 [INFO] Cidade alvo: São Paulo
-2026-01-28 16:20:10 [INFO] Tipos de estabelecimento: ['academia', 'restaurante', 'sorveteria']
-2026-01-28 16:20:10 [INFO] Máximo por tipo: 20
-2026-01-28 16:20:10 [INFO] ============================================================
-2026-01-28 16:20:10 [INFO] Inicializando o Chrome WebDriver...
-2026-01-28 16:20:10 [DEBUG] Modo visível ativado (com interface gráfica).
-2026-01-28 16:20:12 [INFO] ============================================================
-2026-01-28 16:20:12 [INFO] INÍCIO DA AUTOMAÇÃO RPA - GOOGLE MAPS
-2026-01-28 16:20:12 [INFO] Cidade alvo: São Paulo
-2026-01-28 16:20:12 [INFO] Tipos de estabelecimento: ['academia', 'restaurante', 'sorveteria']
-2026-01-28 16:20:12 [INFO] Máximo por tipo: 20
-2026-01-28 16:20:12 [INFO] ============================================================
-2026-01-28 16:20:12 [INFO] Inicializando o Chrome WebDriver...
-2026-01-28 16:20:12 [DEBUG] Modo visível ativado (com interface gráfica).
-2026-01-28 16:20:13 [CRITICAL] Falha crítica na automação: [WinError 193] %1 não é um aplicativo Win32 válido
-2026-01-28 16:20:13 [INFO] ============================================================
-2026-01-28 16:20:13 [INFO] AUTOMAÇÃO FINALIZADA — Tempo total: 1.8s
-2026-01-28 16:20:13 [INFO] Resultados: 0 estabelecimentos
-2026-01-28 16:20:13 [INFO] Arquivos gerados: c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\resultados.json
-2026-01-28 16:20:13 [INFO]                   c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\resultados.xlsx
-2026-01-28 16:20:13 [INFO] Log completo:     c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\automation.log
-2026-01-28 16:20:13 [INFO] ============================================================
-2026-01-28 16:28:42 [INFO] ============================================================
-2026-01-28 16:28:42 [INFO] INÍCIO DA AUTOMAÇÃO RPA - GOOGLE MAPS
-2026-01-28 16:28:42 [INFO] Cidade alvo: São Paulo
-2026-01-28 16:28:42 [INFO] Tipos de estabelecimento: ['academia', 'restaurante', 'sorveteria']
-2026-01-28 16:28:42 [INFO] Máximo por tipo: 20
-2026-01-28 16:28:42 [INFO] ============================================================
-2026-01-28 16:28:42 [INFO] Inicializando o Chrome WebDriver...
-2026-01-28 16:28:42 [DEBUG] Modo visível ativado (com interface gráfica).
-2026-01-28 16:28:47 [INFO] Chrome WebDriver inicializado com sucesso.
-2026-01-28 16:28:47 [INFO] ----------------------------------------
-2026-01-28 16:28:47 [INFO] BUSCANDO: ACADEMIA
-2026-01-28 16:28:47 [INFO] Termo de busca: 'academias em São Paulo'
-2026-01-28 16:28:47 [INFO] ----------------------------------------
-2026-01-28 16:28:47 [INFO] Acessando Google Maps para busca: 'academias em São Paulo'
-2026-01-28 16:28:49 [DEBUG] Campo de busca encontrado.
-2026-01-28 16:28:49 [INFO] Busca realizada: 'academias em São Paulo'
-2026-01-28 16:28:50 [DEBUG] Feed de resultados carregado com sucesso.
-2026-01-28 16:28:52 [DEBUG] Iniciando scroll no painel de resultados...
-2026-01-28 16:28:54 [DEBUG] Scroll 1/5 realizado.
-2026-01-28 16:28:56 [DEBUG] Scroll 2/5 realizado.
-2026-01-28 16:28:58 [DEBUG] Scroll 3/5 realizado.
-2026-01-28 16:29:00 [DEBUG] Scroll 4/5 realizado.
-2026-01-28 16:29:02 [DEBUG] Scroll 5/5 realizado.
-2026-01-28 16:29:02 [INFO] Scroll completo: 5 iterações realizadas.
-2026-01-28 16:29:02 [INFO] Encontrados 36 resultados para 'academia'.
-2026-01-28 16:29:03 [DEBUG]   [1] Extraído: BIO RITMO Academia | Pedro Doll
-2026-01-28 16:29:03 [DEBUG]   [2] Extraído: 30'fit - Treinamento Funcional
-2026-01-28 16:29:03 [DEBUG]   [3] Extraído: K1 GYM SANTANA
-2026-01-28 16:29:03 [DEBUG]   [4] Extraído: BlueFit Santana
-2026-01-28 16:29:04 [DEBUG]   [5] Extraído: Black Fitness Club
-2026-01-28 16:29:04 [DEBUG]   [6] Extraído: Tracer Parkour - Santana
-2026-01-28 16:29:04 [DEBUG]   [7] Extraído: Health Academy
-2026-01-28 16:29:04 [DEBUG]   [8] Extraído: Academia Butterfly
-2026-01-28 16:29:05 [DEBUG]   [9] Extraído: Silver | Fitness & Spa | Santana - Zona Norte - SP
-2026-01-28 16:29:05 [DEBUG]   [10] Extraído: Academia C4 GYM - Unid. Santana
-2026-01-28 16:29:05 [DEBUG]   [11] Extraído: Studio JD Treinos Coletivos
-2026-01-28 16:29:05 [DEBUG]   [12] Extraído: Academia Acqua Ville
-2026-01-28 16:29:06 [DEBUG]   [13] Extraído: 30'fit - Treinamento Funcional
-2026-01-28 16:29:06 [DEBUG]   [14] Extraído: High Point Academia
-2026-01-28 16:29:06 [DEBUG]   [15] Extraído: Studio Livinng
-2026-01-28 16:29:06 [DEBUG]   [16] Extraído: PERSONAL S/A - Academia de Treinamento Funcional no Jardim São Paulo
-2026-01-28 16:29:07 [DEBUG]   [17] Extraído: Academia K2 Fitness Technology
-2026-01-28 16:29:07 [DEBUG]   [18] Extraído: BW Academia | Santana - Zona Norte - São Paulo
-2026-01-28 16:29:07 [DEBUG]   [19] Extraído: Smarkim Gym Academia
-2026-01-28 16:29:07 [DEBUG]   [20] Extraído: BIO RITMO Academia | Pedro Doll
-2026-01-28 16:29:07 [DEBUG] Limite de 20 resultados atingido.
-2026-01-28 16:29:07 [INFO] Total extraído para 'academia': 20 estabelecimentos.
-2026-01-28 16:29:07 [INFO] Coleta de 'academia' concluída: 20 estabelecimentos encontrados.
-2026-01-28 16:29:07 [INFO] ----------------------------------------
-2026-01-28 16:29:07 [INFO] BUSCANDO: RESTAURANTE
-2026-01-28 16:29:07 [INFO] Termo de busca: 'restaurantes em São Paulo'
-2026-01-28 16:29:07 [INFO] ----------------------------------------
-2026-01-28 16:29:07 [INFO] Acessando Google Maps para busca: 'restaurantes em São Paulo'
-2026-01-28 16:29:08 [DEBUG] Campo de busca encontrado.
-2026-01-28 16:29:08 [INFO] Busca realizada: 'restaurantes em São Paulo'
-2026-01-28 16:29:10 [DEBUG] Feed de resultados carregado com sucesso.
-2026-01-28 16:29:12 [DEBUG] Iniciando scroll no painel de resultados...
-2026-01-28 16:29:14 [DEBUG] Scroll 1/5 realizado.
-2026-01-28 16:29:16 [DEBUG] Scroll 2/5 realizado.
-2026-01-28 16:29:18 [DEBUG] Scroll 3/5 realizado.
-2026-01-28 16:29:20 [DEBUG] Scroll 4/5 realizado.
-2026-01-28 16:29:22 [DEBUG] Scroll 5/5 realizado.
-2026-01-28 16:29:22 [INFO] Scroll completo: 5 iterações realizadas.
-2026-01-28 16:29:22 [INFO] Encontrados 40 resultados para 'restaurante'.
-2026-01-28 16:29:22 [DEBUG]   [1] Extraído: Restaurante Dona Florinda
-2026-01-28 16:29:23 [DEBUG]   [2] Extraído: Lassù
-2026-01-28 16:29:23 [DEBUG]   [3] Extraído: Famiglia Mancini Trattoria
-2026-01-28 16:29:23 [DEBUG]   [4] Extraído: La Mordida
-2026-01-28 16:29:24 [DEBUG]   [5] Extraído: Rainha da Jovita
-2026-01-28 16:29:24 [DEBUG]   [6] Extraído: La Ficazza
-2026-01-28 16:29:24 [DEBUG]   [7] Extraído: Sabor de Santana
-2026-01-28 16:29:25 [DEBUG]   [8] Extraído: LeLui Bar e Cozinha
-2026-01-28 16:29:25 [DEBUG]   [9] Extraído: Dom ramiro
-2026-01-28 16:29:25 [DEBUG]   [10] Extraído: Angusteria
-2026-01-28 16:29:26 [DEBUG]   [11] Extraído: Restaurante Nova Zuquim (Alto de Santana)
-2026-01-28 16:29:26 [DEBUG]   [12] Extraído: Santo Mar Restaurante — Unidade Santana
-2026-01-28 16:29:26 [DEBUG]   [13] Extraído: Salvi Café e Cozinha - Santana
-2026-01-28 16:29:27 [DEBUG]   [14] Extraído: Pecorino Cucina Mediterranea Braz Leme: Restaurante, Delivery São Paulo SP
-2026-01-28 16:29:27 [DEBUG]   [15] Extraído: Una Rooftop Restaurante & Bar
-2026-01-28 16:29:28 [DEBUG]   [16] Extraído: Coco Bambu
-2026-01-28 16:29:28 [DEBUG]   [17] Extraído: Restaurante Fulô - Cozinha Regional
-2026-01-28 16:29:28 [DEBUG]   [18] Extraído: La Braciera Pizzaria - Pizza Napoletana
-2026-01-28 16:29:29 [DEBUG]   [19] Extraído: Quintal Brasil
-2026-01-28 16:29:29 [DEBUG]   [20] Extraído: Point Santana
-2026-01-28 16:29:29 [DEBUG] Limite de 20 resultados atingido.
-2026-01-28 16:29:29 [INFO] Total extraído para 'restaurante': 20 estabelecimentos.
-2026-01-28 16:29:29 [INFO] Coleta de 'restaurante' concluída: 20 estabelecimentos encontrados.
-2026-01-28 16:29:29 [INFO] ----------------------------------------
-2026-01-28 16:29:29 [INFO] BUSCANDO: SORVETERIA
-2026-01-28 16:29:29 [INFO] Termo de busca: 'sorveterias em São Paulo'
-2026-01-28 16:29:29 [INFO] ----------------------------------------
-2026-01-28 16:29:29 [INFO] Acessando Google Maps para busca: 'sorveterias em São Paulo'
-2026-01-28 16:29:29 [DEBUG] Campo de busca encontrado.
-2026-01-28 16:29:30 [INFO] Busca realizada: 'sorveterias em São Paulo'
-2026-01-28 16:29:31 [DEBUG] Feed de resultados carregado com sucesso.
-2026-01-28 16:29:33 [DEBUG] Iniciando scroll no painel de resultados...
-2026-01-28 16:29:35 [DEBUG] Scroll 1/5 realizado.
-2026-01-28 16:29:37 [DEBUG] Scroll 2/5 realizado.
-2026-01-28 16:29:39 [DEBUG] Scroll 3/5 realizado.
-2026-01-28 16:29:41 [DEBUG] Scroll 4/5 realizado.
-2026-01-28 16:29:43 [DEBUG] Scroll 5/5 realizado.
-2026-01-28 16:29:43 [INFO] Scroll completo: 5 iterações realizadas.
-2026-01-28 16:29:43 [INFO] Encontrados 40 resultados para 'sorveteria'.
-2026-01-28 16:29:44 [DEBUG]   [1] Extraído: Dezato Gelato - Augusto Tolle
-2026-01-28 16:29:44 [DEBUG]   [2] Extraído: Latte di Fiori
-2026-01-28 16:29:44 [DEBUG]   [3] Extraído: Paleteria paulista - unidade Santana
-2026-01-28 16:29:45 [DEBUG]   [4] Extraído: Sou ice - Sorvetes e Congelados
-2026-01-28 16:29:45 [DEBUG]   [5] Extraído: Sorvetes Rochinha Santana
-2026-01-28 16:29:45 [DEBUG]   [6] Extraído: Candy Village Sorvete Infancia vintage
-2026-01-28 16:29:45 [DEBUG]   [7] Extraído: Bacio di Latte - Augusto Tolle
-2026-01-28 16:29:46 [DEBUG]   [8] Extraído: Gelato Borelli Santana
-2026-01-28 16:29:46 [DEBUG]   [9] Extraído: Lambisk Sorvetes
-2026-01-28 16:29:46 [DEBUG]   [10] Extraído: Frida & Mina Sorveteria
-2026-01-28 16:29:47 [DEBUG]   [11] Extraído: OGGI SORVETES PARADA INGLESA
-2026-01-28 16:29:47 [DEBUG]   [12] Extraído: Dezato Gelato - Braz Leme
-2026-01-28 16:29:47 [DEBUG]   [13] Extraído: The Best Açaí - Água Fria
-2026-01-28 16:29:47 [DEBUG]   [14] Extraído: Sorveteria Lafer & Açaí
-2026-01-28 16:29:48 [DEBUG]   [15] Extraído: Sou Ice Santa Teresinha - Sorvetes e Congelados
-2026-01-28 16:29:48 [DEBUG]   [16] Extraído: Sorveteria do Centro
-2026-01-28 16:29:48 [DEBUG]   [17] Extraído: Bacio di Latte Gelato Puro
-2026-01-28 16:29:49 [DEBUG]   [18] Extraído: Paraiso dos Sorvetes
-2026-01-28 16:29:49 [DEBUG]   [19] Extraído: Sorvete Vintage - Sorvete para eventos | Açaí e Milkshake
-2026-01-28 16:29:49 [DEBUG]   [20] Extraído: Tutti Crema Gelato
-2026-01-28 16:29:49 [DEBUG] Limite de 20 resultados atingido.
-2026-01-28 16:29:49 [INFO] Total extraído para 'sorveteria': 20 estabelecimentos.
-2026-01-28 16:29:49 [INFO] Coleta de 'sorveteria' concluída: 20 estabelecimentos encontrados.
-2026-01-28 16:29:49 [INFO] ============================================================
-2026-01-28 16:29:49 [INFO] TOTAL de estabelecimentos coletados: 60
-2026-01-28 16:29:49 [INFO] Salvando resultados em JSON...
-2026-01-28 16:29:49 [INFO] Arquivo JSON salvo com sucesso: c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\resultados.json
-2026-01-28 16:29:49 [INFO] Gerando planilha Excel...
-2026-01-28 16:29:49 [INFO] Planilha Excel salva com sucesso: c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\resultados.xlsx
-2026-01-28 16:29:52 [INFO] Navegador fechado com sucesso.
-2026-01-28 16:29:52 [INFO] ============================================================
-2026-01-28 16:29:52 [INFO] AUTOMAÇÃO FINALIZADA — Tempo total: 69.6s
-2026-01-28 16:29:52 [INFO] Resultados: 60 estabelecimentos
-2026-01-28 16:29:52 [INFO] Arquivos gerados: c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\resultados.json
-2026-01-28 16:29:52 [INFO]                   c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\resultados.xlsx
-2026-01-28 16:29:52 [INFO] Log completo:     c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\automation.log
-2026-01-28 16:29:52 [INFO] ============================================================
-2026-01-28 16:35:59 [INFO] ============================================================
-2026-01-28 16:35:59 [INFO] INÍCIO DA AUTOMAÇÃO RPA - GOOGLE MAPS
-2026-01-28 16:35:59 [INFO] Cidade alvo: São Paulo
-2026-01-28 16:35:59 [INFO] Tipos de estabelecimento: ['academia', 'restaurante', 'sorveteria']
-2026-01-28 16:35:59 [INFO] Máximo por tipo: 20
-2026-01-28 16:35:59 [INFO] ============================================================
-2026-01-28 16:35:59 [INFO] Inicializando o Chrome WebDriver...
-2026-01-28 16:35:59 [DEBUG] Modo visível ativado (com interface gráfica).
-2026-01-28 16:36:00 [INFO] Chrome WebDriver inicializado com sucesso.
-2026-01-28 16:36:00 [INFO] ----------------------------------------
-2026-01-28 16:36:00 [INFO] BUSCANDO: ACADEMIA
-2026-01-28 16:36:00 [INFO] Termo de busca: 'academias em São Paulo'
-2026-01-28 16:36:00 [INFO] ----------------------------------------
-2026-01-28 16:36:00 [INFO] Acessando Google Maps para busca: 'academias em São Paulo'
-2026-01-28 16:36:02 [DEBUG] Campo de busca encontrado.
-2026-01-28 16:36:07 [INFO] Busca realizada: 'academias em São Paulo'
-2026-01-28 16:36:09 [DEBUG] Feed de resultados carregado.
-2026-01-28 16:36:14 [DEBUG] Iniciando scroll no painel de resultados...
-2026-01-28 16:36:16 [DEBUG] Scroll 1/5 realizado.
-2026-01-28 16:36:18 [DEBUG] Scroll 2/5 realizado.
-2026-01-28 16:36:20 [DEBUG] Scroll 3/5 realizado.
-2026-01-28 16:36:22 [DEBUG] Scroll 4/5 realizado.
-2026-01-28 16:36:24 [DEBUG] Scroll 5/5 realizado.
-2026-01-28 16:36:24 [INFO] Scroll completo: 5 iterações realizadas.
-2026-01-28 16:36:24 [INFO] Encontrados 36 resultados para 'academia'.
-2026-01-28 16:36:24 [DEBUG]   [1] Extraído: BIO RITMO Academia | Pedro Doll
-2026-01-28 16:36:24 [DEBUG]   [2] Extraído: 30'fit - Treinamento Funcional
-2026-01-28 16:36:25 [DEBUG]   [3] Extraído: K1 GYM SANTANA
-2026-01-28 16:36:25 [DEBUG]   [4] Extraído: BlueFit Santana
-2026-01-28 16:36:25 [DEBUG]   [5] Extraído: Black Fitness Club
-2026-01-28 16:36:25 [DEBUG]   [6] Extraído: Tracer Parkour - Santana
-2026-01-28 16:36:26 [DEBUG]   [7] Extraído: Health Academy
-2026-01-28 16:36:26 [DEBUG]   [8] Extraído: Academia Butterfly
-2026-01-28 16:36:26 [DEBUG]   [9] Extraído: Silver | Fitness & Spa | Santana - Zona Norte - SP
-2026-01-28 16:36:26 [DEBUG]   [10] Extraído: Academia C4 GYM - Unid. Santana
-2026-01-28 16:36:27 [DEBUG]   [11] Extraído: Studio JD Treinos Coletivos
-2026-01-28 16:36:27 [DEBUG]   [12] Extraído: Academia Acqua Ville
-2026-01-28 16:36:27 [DEBUG]   [13] Extraído: 30'fit - Treinamento Funcional
-2026-01-28 16:36:27 [DEBUG]   [14] Extraído: High Point Academia
-2026-01-28 16:36:28 [DEBUG]   [15] Extraído: Studio Livinng
-2026-01-28 16:36:28 [DEBUG]   [16] Extraído: PERSONAL S/A - Academia de Treinamento Funcional no Jardim São Paulo
-2026-01-28 16:36:28 [DEBUG]   [17] Extraído: Academia K2 Fitness Technology
-2026-01-28 16:36:28 [DEBUG]   [18] Extraído: BW Academia | Santana - Zona Norte - São Paulo
-2026-01-28 16:36:29 [DEBUG]   [19] Extraído: Smarkim Gym Academia
-2026-01-28 16:36:29 [DEBUG]   [20] Extraído: BIO RITMO Academia | Pedro Doll
-2026-01-28 16:36:29 [DEBUG] Limite de 20 resultados atingido.
-2026-01-28 16:36:29 [INFO] Total extraído para 'academia': 20 estabelecimentos.
-2026-01-28 16:36:29 [INFO] Coleta de 'academia' concluída: 20 estabelecimentos encontrados.
-2026-01-28 16:36:29 [INFO] ----------------------------------------
-2026-01-28 16:36:29 [INFO] BUSCANDO: RESTAURANTE
-2026-01-28 16:36:29 [INFO] Termo de busca: 'restaurantes em São Paulo'
-2026-01-28 16:36:29 [INFO] ----------------------------------------
-2026-01-28 16:36:29 [INFO] Acessando Google Maps para busca: 'restaurantes em São Paulo'
-2026-01-28 16:36:30 [DEBUG] Campo de busca encontrado.
-2026-01-28 16:36:35 [INFO] Busca realizada: 'restaurantes em São Paulo'
-2026-01-28 16:36:37 [DEBUG] Feed de resultados carregado.
-2026-01-28 16:36:42 [DEBUG] Iniciando scroll no painel de resultados...
-2026-01-28 16:36:44 [DEBUG] Scroll 1/5 realizado.
-2026-01-28 16:36:46 [DEBUG] Scroll 2/5 realizado.
-2026-01-28 16:36:48 [DEBUG] Scroll 3/5 realizado.
-2026-01-28 16:36:50 [DEBUG] Scroll 4/5 realizado.
-2026-01-28 16:36:52 [DEBUG] Scroll 5/5 realizado.
-2026-01-28 16:36:52 [INFO] Scroll completo: 5 iterações realizadas.
-2026-01-28 16:36:52 [INFO] Encontrados 40 resultados para 'restaurante'.
-2026-01-28 16:36:52 [DEBUG]   [1] Extraído: Restaurante Dona Florinda
-2026-01-28 16:36:53 [DEBUG]   [2] Extraído: Lassù
-2026-01-28 16:36:53 [DEBUG]   [3] Extraído: Famiglia Mancini Trattoria
-2026-01-28 16:36:53 [DEBUG]   [4] Extraído: La Mordida
-2026-01-28 16:36:54 [DEBUG]   [5] Extraído: Rainha da Jovita
-2026-01-28 16:36:54 [DEBUG]   [6] Extraído: La Ficazza
-2026-01-28 16:36:54 [DEBUG]   [7] Extraído: Sabor de Santana
-2026-01-28 16:36:55 [DEBUG]   [8] Extraído: LeLui Bar e Cozinha
-2026-01-28 16:36:55 [DEBUG]   [9] Extraído: Dom ramiro
-2026-01-28 16:36:55 [DEBUG]   [10] Extraído: Angusteria
-2026-01-28 16:36:56 [DEBUG]   [11] Extraído: Restaurante Nova Zuquim (Alto de Santana)
-2026-01-28 16:36:56 [DEBUG]   [12] Extraído: Santo Mar Restaurante — Unidade Santana
-2026-01-28 16:36:56 [DEBUG]   [13] Extraído: Salvi Café e Cozinha - Santana
-2026-01-28 16:36:57 [DEBUG]   [14] Extraído: Pecorino Cucina Mediterranea Braz Leme: Restaurante, Delivery São Paulo SP
-2026-01-28 16:36:57 [DEBUG]   [15] Extraído: Una Rooftop Restaurante & Bar
-2026-01-28 16:36:57 [DEBUG]   [16] Extraído: Restaurante Fulô - Cozinha Regional
-2026-01-28 16:36:58 [DEBUG]   [17] Extraído: La Braciera Pizzaria - Pizza Napoletana
-2026-01-28 16:36:58 [DEBUG]   [18] Extraído: Quintal Brasil
-2026-01-28 16:36:58 [DEBUG]   [19] Extraído: Point Santana
-2026-01-28 16:36:59 [DEBUG]   [20] Extraído: Restaurante Coco Bambu Anhembi
-2026-01-28 16:36:59 [DEBUG] Limite de 20 resultados atingido.
-2026-01-28 16:36:59 [INFO] Total extraído para 'restaurante': 20 estabelecimentos.
-2026-01-28 16:36:59 [INFO] Coleta de 'restaurante' concluída: 20 estabelecimentos encontrados.
-2026-01-28 16:36:59 [INFO] ----------------------------------------
-2026-01-28 16:36:59 [INFO] BUSCANDO: SORVETERIA
-2026-01-28 16:36:59 [INFO] Termo de busca: 'sorveterias em São Paulo'
-2026-01-28 16:36:59 [INFO] ----------------------------------------
-2026-01-28 16:36:59 [INFO] Acessando Google Maps para busca: 'sorveterias em São Paulo'
-2026-01-28 16:36:59 [DEBUG] Campo de busca encontrado.
-2026-01-28 16:37:05 [INFO] Busca realizada: 'sorveterias em São Paulo'
-2026-01-28 16:37:06 [DEBUG] Feed de resultados carregado.
-2026-01-28 16:37:11 [DEBUG] Iniciando scroll no painel de resultados...
-2026-01-28 16:37:13 [DEBUG] Scroll 1/5 realizado.
-2026-01-28 16:37:15 [DEBUG] Scroll 2/5 realizado.
-2026-01-28 16:37:17 [DEBUG] Scroll 3/5 realizado.
-2026-01-28 16:37:19 [DEBUG] Scroll 4/5 realizado.
-2026-01-28 16:37:21 [DEBUG] Scroll 5/5 realizado.
-2026-01-28 16:37:21 [INFO] Scroll completo: 5 iterações realizadas.
-2026-01-28 16:37:21 [INFO] Encontrados 40 resultados para 'sorveteria'.
-2026-01-28 16:37:22 [DEBUG]   [1] Extraído: Dezato Gelato - Augusto Tolle
-2026-01-28 16:37:22 [DEBUG]   [2] Extraído: Latte di Fiori
-2026-01-28 16:37:22 [DEBUG]   [3] Extraído: Paleteria paulista - unidade Santana
-2026-01-28 16:37:23 [DEBUG]   [4] Extraído: Sou ice - Sorvetes e Congelados
-2026-01-28 16:37:23 [DEBUG]   [5] Extraído: Sorvetes Rochinha Santana
-2026-01-28 16:37:23 [DEBUG]   [6] Extraído: Candy Village Sorvete Infancia vintage
-2026-01-28 16:37:24 [DEBUG]   [7] Extraído: Gelato Borelli Santana
-2026-01-28 16:37:24 [DEBUG]   [8] Extraído: Bacio di Latte - Augusto Tolle
-2026-01-28 16:37:24 [DEBUG]   [9] Extraído: Lambisk Sorvetes
-2026-01-28 16:37:24 [DEBUG]   [10] Extraído: Frida & Mina Sorveteria
-2026-01-28 16:37:25 [DEBUG]   [11] Extraído: OGGI SORVETES PARADA INGLESA
-2026-01-28 16:37:25 [DEBUG]   [12] Extraído: Dezato Gelato - Braz Leme
-2026-01-28 16:37:25 [DEBUG]   [13] Extraído: The Best Açaí - Água Fria
-2026-01-28 16:37:26 [DEBUG]   [14] Extraído: Sorveteria Lafer & Açaí
-2026-01-28 16:37:26 [DEBUG]   [15] Extraído: Sou Ice Santa Teresinha - Sorvetes e Congelados
-2026-01-28 16:37:26 [DEBUG]   [16] Extraído: Sorveteria do Centro
-2026-01-28 16:37:27 [DEBUG]   [17] Extraído: Bacio di Latte Gelato Puro
-2026-01-28 16:37:27 [DEBUG]   [18] Extraído: Paraiso dos Sorvetes
-2026-01-28 16:37:27 [DEBUG]   [19] Extraído: Sorvete Vintage - Sorvete para eventos | Açaí e Milkshake
-2026-01-28 16:37:27 [DEBUG]   [20] Extraído: Tutti Crema Gelato
-2026-01-28 16:37:27 [DEBUG] Limite de 20 resultados atingido.
-2026-01-28 16:37:27 [INFO] Total extraído para 'sorveteria': 20 estabelecimentos.
-2026-01-28 16:37:27 [INFO] Coleta de 'sorveteria' concluída: 20 estabelecimentos encontrados.
-2026-01-28 16:37:27 [INFO] ============================================================
-2026-01-28 16:37:27 [INFO] TOTAL de estabelecimentos coletados: 60
-2026-01-28 16:37:27 [INFO] Salvando resultados em JSON...
-2026-01-28 16:37:27 [INFO] Arquivo JSON salvo com sucesso: c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\resultados.json
-2026-01-28 16:37:27 [INFO] Gerando planilha Excel...
-2026-01-28 16:37:27 [INFO] Planilha Excel salva com sucesso: c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\resultados.xlsx
-2026-01-28 16:37:30 [INFO] Navegador fechado com sucesso.
-2026-01-28 16:37:30 [INFO] ============================================================
-2026-01-28 16:37:30 [INFO] AUTOMAÇÃO FINALIZADA — Tempo total: 91.4s
-2026-01-28 16:37:30 [INFO] Resultados: 60 estabelecimentos
-2026-01-28 16:37:30 [INFO] Arquivos gerados: c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\resultados.json
-2026-01-28 16:37:30 [INFO]                   c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\resultados.xlsx
-2026-01-28 16:37:30 [INFO] Log completo:     c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\automation.log
-2026-01-28 16:37:30 [INFO] ============================================================
-2026-01-28 17:28:44 [INFO] ============================================================
-2026-01-28 17:28:44 [INFO] INÍCIO DA AUTOMAÇÃO RPA - GOOGLE MAPS
-2026-01-28 17:28:44 [INFO] Cidade alvo: São Paulo
-2026-01-28 17:28:44 [INFO] Tipos de estabelecimento: ['academia', 'restaurante', 'sorveteria']
-2026-01-28 17:28:44 [INFO] Máximo por tipo: 20
-2026-01-28 17:28:44 [INFO] ============================================================
-2026-01-28 17:28:44 [INFO] Inicializando o Chrome WebDriver...
-2026-01-28 17:28:44 [DEBUG] Modo visível ativado (com interface gráfica).
-2026-01-28 17:28:47 [INFO] Chrome WebDriver inicializado com sucesso.
-2026-01-28 17:28:47 [INFO] ----------------------------------------
-2026-01-28 17:28:47 [INFO] BUSCANDO: ACADEMIA
-2026-01-28 17:28:47 [INFO] Termo de busca: 'academias em São Paulo'
-2026-01-28 17:28:47 [INFO] ----------------------------------------
-2026-01-28 17:28:47 [INFO] Acessando Google Maps para busca: 'academias em São Paulo'
-2026-01-28 17:28:48 [DEBUG] Campo de busca encontrado.
-2026-01-28 17:28:53 [INFO] Busca realizada: 'academias em São Paulo'
-2026-01-28 17:28:55 [DEBUG] Feed de resultados carregado.
-2026-01-28 17:29:00 [DEBUG] Iniciando scroll no painel de resultados...
-2026-01-28 17:29:02 [DEBUG] Scroll 1/5 realizado.
-2026-01-28 17:29:04 [DEBUG] Scroll 2/5 realizado.
-2026-01-28 17:29:06 [DEBUG] Scroll 3/5 realizado.
-2026-01-28 17:29:08 [DEBUG] Scroll 4/5 realizado.
-2026-01-28 17:29:10 [DEBUG] Scroll 5/5 realizado.
-2026-01-28 17:29:10 [INFO] Scroll completo: 5 iterações realizadas.
-2026-01-28 17:29:10 [INFO] Encontrados 36 cards para 'academia'.
-2026-01-28 17:29:10 [DEBUG]   Texto do card 'BIO RITMO Academia | Pedro Doll': Patrocinado
+2026-01-28 19:46:13 [INFO] ============================================================
+2026-01-28 19:46:13 [INFO] INÍCIO DA AUTOMAÇÃO RPA - GOOGLE MAPS
+2026-01-28 19:46:13 [INFO] Cidade alvo: São Paulo
+2026-01-28 19:46:13 [INFO] Tipos de estabelecimento: ['academia', 'restaurante', 'sorveteria']
+2026-01-28 19:46:13 [INFO] Máximo por tipo: 20
+2026-01-28 19:46:13 [INFO] ============================================================
+2026-01-28 19:46:13 [INFO] Inicializando o Chrome WebDriver...
+2026-01-28 19:46:13 [DEBUG] Modo visível ativado (com interface gráfica).
+2026-01-28 19:46:15 [INFO] Chrome WebDriver inicializado com sucesso.
+2026-01-28 19:46:15 [INFO] ----------------------------------------
+2026-01-28 19:46:15 [INFO] BUSCANDO: ACADEMIA
+2026-01-28 19:46:15 [INFO] Termo de busca: 'academias em São Paulo'
+2026-01-28 19:46:15 [INFO] ----------------------------------------
+2026-01-28 19:46:15 [INFO] Acessando Google Maps para busca: 'academias em São Paulo'
+2026-01-28 19:46:17 [DEBUG] Campo de busca encontrado.
+2026-01-28 19:46:22 [INFO] Busca realizada: 'academias em São Paulo'
+2026-01-28 19:46:24 [DEBUG] Feed de resultados carregado.
+2026-01-28 19:46:29 [DEBUG] Iniciando scroll no painel de resultados...
+2026-01-28 19:46:31 [DEBUG] Scroll 1/5 realizado.
+2026-01-28 19:46:33 [DEBUG] Scroll 2/5 realizado.
+2026-01-28 19:46:35 [DEBUG] Scroll 3/5 realizado.
+2026-01-28 19:46:37 [DEBUG] Scroll 4/5 realizado.
+2026-01-28 19:46:39 [DEBUG] Scroll 5/5 realizado.
+2026-01-28 19:46:39 [INFO] Scroll completo: 5 iterações realizadas.
+2026-01-28 19:46:39 [INFO] Encontrados 36 cards para 'academia'.
+2026-01-28 19:46:39 [DEBUG]   Texto do card 'Academia Motion Fit - Limoeiro': Patrocinado
+
+Academia Motion Fit - Limoeiro
+3,9(154)
+Academia · 546 Avenida Augusto Antunes
+Aberto · Fecha 23:00
+ 
+ 
+Tr...
+2026-01-28 19:46:39 [DEBUG]   [1] Extraído: Academia Motion Fit - Limoeiro
+2026-01-28 19:46:39 [DEBUG]   Texto do card 'BIO RITMO Academia | Pedro Doll': Patrocinado
 
 BIO RITMO Academia | Pedro Doll
 4,3(319)
@@ -351,146 +41,143 @@ Academia · 564 Rua Pedro Doll
 Aberto · Fecha 23:00
  
  
-Descubra s...
-2026-01-28 17:29:10 [DEBUG]   [1] Extraído: BIO RITMO Academia | Pedro Doll
-2026-01-28 17:29:10 [DEBUG]   Texto do card '30'fit - Treinamento Funcional': Patrocinado
-
-30'fit - Treinamento Funcional
-5,0(151)
-Sala de fitness · 524 Rua Francisca Júlia
-Aberto · Fecha 22:00
- 
- ...
-2026-01-28 17:29:10 [DEBUG]   [2] Extraído: 30'fit - Treinamento Funcional
-2026-01-28 17:29:10 [DEBUG]   Texto do card 'K1 GYM SANTANA': K1 GYM SANTANA
+Viva sua m...
+2026-01-28 19:46:39 [DEBUG]   [2] Extraído: BIO RITMO Academia | Pedro Doll
+2026-01-28 19:46:39 [DEBUG]   Texto do card 'K1 GYM SANTANA': K1 GYM SANTANA
 5,0(118)
 Academia ·  · R. Conselheiro Saraiva, 207
 Aberto · Fecha 21:30...
-2026-01-28 17:29:10 [DEBUG]   [3] Extraído: K1 GYM SANTANA
-2026-01-28 17:29:10 [DEBUG]   Texto do card 'Black Fitness Club': Black Fitness Club
+2026-01-28 19:46:39 [DEBUG]   [3] Extraído: K1 GYM SANTANA
+2026-01-28 19:46:39 [DEBUG]   Texto do card 'Black Fitness Club': Black Fitness Club
 4,7(196)
 Academia ·  · R. Gaspar Soares, 88
 Aberto · Fecha 23:00...
-2026-01-28 17:29:10 [DEBUG]   [4] Extraído: Black Fitness Club
-2026-01-28 17:29:10 [DEBUG]   Texto do card 'BlueFit Santana': BlueFit Santana
+2026-01-28 19:46:39 [DEBUG]   [4] Extraído: Black Fitness Club
+2026-01-28 19:46:39 [DEBUG]   Texto do card 'BlueFit Santana': BlueFit Santana
 4,5(691)
 Academia ·  · R. Dr. Zuquim, 1872
 Aberto · Fecha 23:00
  
 Serviços no local...
-2026-01-28 17:29:10 [DEBUG]   [5] Extraído: BlueFit Santana
-2026-01-28 17:29:10 [DEBUG]   Texto do card 'Health Academy': Health Academy
+2026-01-28 19:46:39 [DEBUG]   [5] Extraído: BlueFit Santana
+2026-01-28 19:46:39 [DEBUG]   Texto do card 'Health Academy': Health Academy
 5,0(18)
 Academia ·  · R. Voluntários da Pátria, 2468 - Conjunto 167
 Aberto · Fecha 21:00
  
 Serviços no l...
-2026-01-28 17:29:10 [DEBUG]   [6] Extraído: Health Academy
-2026-01-28 17:29:10 [DEBUG]   Texto do card 'Tracer Parkour - Santana': Tracer Parkour - Santana
-4,8(52)
-Escola de esportes ·  · R. Dr. Zuquim, 859
-Aberto · Fecha 21:30...
-2026-01-28 17:29:10 [DEBUG]   [7] Extraído: Tracer Parkour - Santana
-2026-01-28 17:29:10 [DEBUG]   Texto do card 'Silver | Fitness & Spa | Santana - Zona Norte - SP': Silver | Fitness & Spa | Santana - Zona Norte - SP
+2026-01-28 19:46:39 [DEBUG]   [6] Extraído: Health Academy
+2026-01-28 19:46:39 [DEBUG]   Texto do card 'Silver | Fitness & Spa | Santana - Zona Norte - SP': Silver | Fitness & Spa | Santana - Zona Norte - SP
 4,8(110)
 Academia ·  · R. Conselheiro Moreira de Barros, 636
 Aberto ...
-2026-01-28 17:29:10 [DEBUG]   [8] Extraído: Silver | Fitness & Spa | Santana - Zona Norte - SP
-2026-01-28 17:29:10 [DEBUG]   Texto do card 'Academia Butterfly': Academia Butterfly
+2026-01-28 19:46:39 [DEBUG]   [7] Extraído: Silver | Fitness & Spa | Santana - Zona Norte - SP
+2026-01-28 19:46:39 [DEBUG]   Texto do card 'Academia Butterfly': Academia Butterfly
 4,6(148)
 Sala de fitness ·  · R. Conselheiro Moreira de Barros, 221
 Aberto · Fecha 22:00...
-2026-01-28 17:29:10 [DEBUG]   [9] Extraído: Academia Butterfly
-2026-01-28 17:29:10 [DEBUG]   Texto do card 'Academia C4 GYM - Unid. Santana': Academia C4 GYM - Unid. Santana
+2026-01-28 19:46:39 [DEBUG]   [8] Extraído: Academia Butterfly
+2026-01-28 19:46:39 [DEBUG]   Texto do card 'Tracer Parkour - Santana': Tracer Parkour - Santana
+4,8(52)
+Escola de esportes ·  · R. Dr. Zuquim, 859
+Aberto · Fecha 21:30...
+2026-01-28 19:46:39 [DEBUG]   [9] Extraído: Tracer Parkour - Santana
+2026-01-28 19:46:39 [DEBUG]   Texto do card 'Academia C4 GYM - Unid. Santana': Academia C4 GYM - Unid. Santana
 3,9(156)
 Academia ·  · Rua Dr. Olavo Egídio, 632
 Aberto · Fecha 23:00...
-2026-01-28 17:29:10 [DEBUG]   [10] Extraído: Academia C4 GYM - Unid. Santana
-2026-01-28 17:29:10 [DEBUG]   Texto do card 'Studio JD Treinos Coletivos': Studio JD Treinos Coletivos
-4,6(18)
-Academia ·  · Rua Benvinda Aparecida de Abreu Leme, 43 - Sala 3
-Aberto · Fecha 19:0...
-2026-01-28 17:29:10 [DEBUG]   [11] Extraído: Studio JD Treinos Coletivos
-2026-01-28 17:29:10 [DEBUG]   Texto do card 'Academia Acqua Ville': Academia Acqua Ville
+2026-01-28 19:46:39 [DEBUG]   [10] Extraído: Academia C4 GYM - Unid. Santana
+2026-01-28 19:46:39 [DEBUG]   Texto do card 'Academia Acqua Ville': Academia Acqua Ville
 4,5(233)
 Academia ·  · R. Ten. Blum, 93
 Aberto · Fecha 22:00...
-2026-01-28 17:29:10 [DEBUG]   [12] Extraído: Academia Acqua Ville
-2026-01-28 17:29:10 [DEBUG]   Texto do card '30'fit - Treinamento Funcional': 30'fit - Treinamento Funcional
-5,0(151)
+2026-01-28 19:46:39 [DEBUG]   [11] Extraído: Academia Acqua Ville
+2026-01-28 19:46:39 [DEBUG]   Texto do card '30'fit - Treinamento Funcional': 30'fit - Treinamento Funcional
+5,0(152)
 Sala de fitness · R. Francisca Júlia, 524
 Aberto · Fecha 22:00
  
 Serviços no loc...
-2026-01-28 17:29:10 [DEBUG]   [13] Extraído: 30'fit - Treinamento Funcional
-2026-01-28 17:29:10 [DEBUG]   Texto do card 'High Point Academia': High Point Academia
+2026-01-28 19:46:39 [DEBUG]   [12] Extraído: 30'fit - Treinamento Funcional
+2026-01-28 19:46:39 [DEBUG]   Texto do card 'High Point Academia': High Point Academia
 4,7(510)
 Academia ·  · Rua Chemin Del Pra, 58
 Aberto · Fecha 23:00...
-2026-01-28 17:29:10 [DEBUG]   [14] Extraído: High Point Academia
-2026-01-28 17:29:10 [DEBUG]   Texto do card 'Studio Livinng': Studio Livinng
+2026-01-28 19:46:39 [DEBUG]   [13] Extraído: High Point Academia
+2026-01-28 19:46:39 [DEBUG]   Texto do card 'Studio Livinng': Studio Livinng
 4,9(166)
 Academia ·  · R. Conselheiro Moreira de Barros, 711
 Aberto · Fecha 21:00
  
 Aulas on-line...
-2026-01-28 17:29:10 [DEBUG]   [15] Extraído: Studio Livinng
-2026-01-28 17:29:10 [DEBUG]   Texto do card 'PERSONAL S/A - Academia de Treinamento Funcional no Jardim São Paulo': PERSONAL S/A - Academia de Treinamento Funcional no Jardim São Paulo
+2026-01-28 19:46:39 [DEBUG]   [14] Extraído: Studio Livinng
+2026-01-28 19:46:39 [DEBUG]   Texto do card 'PERSONAL S/A - Academia de Treinamento Funcional no Jardim São Paulo': PERSONAL S/A - Academia de Treinamento Funcional no Jardim São Paulo
 4,8(62)
 Academia ·  · Av. Nova Cantareira, 624
 Abe...
-2026-01-28 17:29:10 [DEBUG]   [16] Extraído: PERSONAL S/A - Academia de Treinamento Funcional no Jardim São Paulo
-2026-01-28 17:29:10 [DEBUG]   Texto do card 'Academia K2 Fitness Technology': Academia K2 Fitness Technology
+2026-01-28 19:46:39 [DEBUG]   [15] Extraído: PERSONAL S/A - Academia de Treinamento Funcional no Jardim São Paulo
+2026-01-28 19:46:39 [DEBUG]   Texto do card 'Academia K2 Fitness Technology': Academia K2 Fitness Technology
 4,1(598)
 Sala de fitness ·  · Av. Luiz Dumont Villares, 200
 Aberto · Fecha 22:00...
-2026-01-28 17:29:10 [DEBUG]   [17] Extraído: Academia K2 Fitness Technology
-2026-01-28 17:29:10 [DEBUG]   Texto do card 'BW Academia | Santana - Zona Norte - São Paulo': BW Academia | Santana - Zona Norte - São Paulo
+2026-01-28 19:46:39 [DEBUG]   [16] Extraído: Academia K2 Fitness Technology
+2026-01-28 19:46:39 [DEBUG]   Texto do card 'BW Academia | Santana - Zona Norte - São Paulo': BW Academia | Santana - Zona Norte - São Paulo
 4,9(1.293)
 Academia ·  · R. Mateus Leme, 114
 Aberto · Fecha 23:00
  
 Serv...
-2026-01-28 17:29:10 [DEBUG]   [18] Extraído: BW Academia | Santana - Zona Norte - São Paulo
-2026-01-28 17:29:10 [DEBUG]   Texto do card 'Smarkim Gym Academia': Smarkim Gym Academia
+2026-01-28 19:46:39 [DEBUG]   [17] Extraído: BW Academia | Santana - Zona Norte - São Paulo
+2026-01-28 19:46:39 [DEBUG]   Texto do card 'Smarkim Gym Academia': Smarkim Gym Academia
 4,3(254)
 Academia ·  · R. Voluntários da Pátria, 1884
 Aberto · Fecha 22:00
  
 Serviços no local...
-2026-01-28 17:29:10 [DEBUG]   [19] Extraído: Smarkim Gym Academia
-2026-01-28 17:29:10 [DEBUG]   Texto do card 'BIO RITMO Academia | Pedro Doll': BIO RITMO Academia | Pedro Doll
+2026-01-28 19:46:39 [DEBUG]   [18] Extraído: Smarkim Gym Academia
+2026-01-28 19:46:39 [DEBUG]   Texto do card 'Studio JD Treinos Coletivos': Studio JD Treinos Coletivos
+4,6(19)
+Academia ·  · Rua Benvinda Aparecida de Abreu Leme, 43 - Sala 3
+Fechado · Abre qui....
+2026-01-28 19:46:39 [DEBUG]   [19] Extraído: Studio JD Treinos Coletivos
+2026-01-28 19:46:39 [DEBUG]   Texto do card 'BIO RITMO Academia | Pedro Doll': BIO RITMO Academia | Pedro Doll
 4,3(319)
 Academia ·  · R. Pedro Doll, 564
 Aberto · Fecha 23:00
  
 Serviços no local...
-2026-01-28 17:29:10 [DEBUG]   [20] Extraído: BIO RITMO Academia | Pedro Doll
-2026-01-28 17:29:10 [DEBUG] Limite de 20 resultados atingido.
-2026-01-28 17:29:10 [INFO] Total extraído para 'academia': 20 estabelecimentos.
-2026-01-28 17:29:10 [INFO] Coleta de 'academia' concluída: 20 estabelecimentos encontrados.
-2026-01-28 17:29:10 [INFO] ----------------------------------------
-2026-01-28 17:29:10 [INFO] BUSCANDO: RESTAURANTE
-2026-01-28 17:29:10 [INFO] Termo de busca: 'restaurantes em São Paulo'
-2026-01-28 17:29:10 [INFO] ----------------------------------------
-2026-01-28 17:29:10 [INFO] Acessando Google Maps para busca: 'restaurantes em São Paulo'
-2026-01-28 17:29:11 [DEBUG] Campo de busca encontrado.
-2026-01-28 17:29:16 [INFO] Busca realizada: 'restaurantes em São Paulo'
-2026-01-28 17:29:18 [DEBUG] Feed de resultados carregado.
-2026-01-28 17:29:23 [DEBUG] Iniciando scroll no painel de resultados...
-2026-01-28 17:29:25 [DEBUG] Scroll 1/5 realizado.
-2026-01-28 17:29:27 [DEBUG] Scroll 2/5 realizado.
-2026-01-28 17:29:29 [DEBUG] Scroll 3/5 realizado.
-2026-01-28 17:29:31 [DEBUG] Scroll 4/5 realizado.
-2026-01-28 17:29:33 [DEBUG] Scroll 5/5 realizado.
-2026-01-28 17:29:33 [INFO] Scroll completo: 5 iterações realizadas.
-2026-01-28 17:29:33 [INFO] Encontrados 40 cards para 'restaurante'.
-2026-01-28 17:29:33 [DEBUG]   Texto do card 'Restaurante Dona Florinda': Restaurante Dona Florinda
+2026-01-28 19:46:39 [DEBUG]   [20] Extraído: BIO RITMO Academia | Pedro Doll
+2026-01-28 19:46:39 [DEBUG] Limite de 20 resultados atingido.
+2026-01-28 19:46:39 [INFO] Total extraído para 'academia': 20 estabelecimentos.
+2026-01-28 19:46:39 [INFO] Coleta de 'academia' concluída: 20 estabelecimentos encontrados.
+2026-01-28 19:46:39 [INFO] ----------------------------------------
+2026-01-28 19:46:39 [INFO] BUSCANDO: RESTAURANTE
+2026-01-28 19:46:39 [INFO] Termo de busca: 'restaurantes em São Paulo'
+2026-01-28 19:46:39 [INFO] ----------------------------------------
+2026-01-28 19:46:39 [INFO] Acessando Google Maps para busca: 'restaurantes em São Paulo'
+2026-01-28 19:46:40 [DEBUG] Campo de busca encontrado.
+2026-01-28 19:46:46 [INFO] Busca realizada: 'restaurantes em São Paulo'
+2026-01-28 19:46:47 [DEBUG] Feed de resultados carregado.
+2026-01-28 19:46:52 [DEBUG] Iniciando scroll no painel de resultados...
+2026-01-28 19:46:54 [DEBUG] Scroll 1/5 realizado.
+2026-01-28 19:46:56 [DEBUG] Scroll 2/5 realizado.
+2026-01-28 19:46:58 [DEBUG] Scroll 3/5 realizado.
+2026-01-28 19:47:00 [DEBUG] Scroll 4/5 realizado.
+2026-01-28 19:47:02 [DEBUG] Scroll 5/5 realizado.
+2026-01-28 19:47:02 [INFO] Scroll completo: 5 iterações realizadas.
+2026-01-28 19:47:02 [INFO] Encontrados 40 cards para 'restaurante'.
+2026-01-28 19:47:02 [DEBUG]   Texto do card 'Lassù': Lassù
+4,6(3.332) · +R$ 200
+Restaurante ·  · R. Conselheiro Saraiva, 207
+Bar giratório e especialidades da Itália
+Aberto...
+2026-01-28 19:47:02 [DEBUG]   [1] Extraído: Lassù
+2026-01-28 19:47:02 [DEBUG]   Texto do card 'Restaurante Dona Florinda': Restaurante Dona Florinda
 4,4(1.012) · $$$
 Portuguesa ·  · R. Antônio Pereira de Sousa, 227
 Restaurante português famil...
-2026-01-28 17:29:33 [DEBUG]   [1] Extraído: Restaurante Dona Florinda
-2026-01-28 17:29:33 [DEBUG]   Texto do card 'Angusteria': Angusteria
+2026-01-28 19:47:02 [DEBUG]   [2] Extraído: Restaurante Dona Florinda
+2026-01-28 19:47:02 [DEBUG]   Texto do card 'Angusteria': Angusteria
 4,7(443) · $$
 Restaurante · R. Duarte de Azevedo, 468
 Aberto · Fecha 22:00
@@ -498,27 +185,35 @@ Aberto · Fecha 22:00
 Refeição no local
 ·
 Retirada na ...
-2026-01-28 17:29:33 [DEBUG]   [2] Extraído: Angusteria
-2026-01-28 17:29:33 [DEBUG]   Texto do card 'Lassù': Lassù
-4,6(3.332) · +R$ 200
-Restaurante ·  · R. Conselheiro Saraiva, 207
-Bar giratório e especialidades da Itália
-Fechad...
-2026-01-28 17:29:33 [DEBUG]   [3] Extraído: Lassù
-2026-01-28 17:29:33 [DEBUG]   Texto do card 'Famiglia Mancini Trattoria': Famiglia Mancini Trattoria
-4,7(27.902) · $$$
-Italiana ·  · Rua Avanhandava, 81, Bela Vista
-Massas e frios em ambiente a...
-2026-01-28 17:29:33 [DEBUG]   [4] Extraído: Famiglia Mancini Trattoria
-2026-01-28 17:29:33 [DEBUG]   Texto do card 'La Mordida': La Mordida
-4,6(618)
-Argentina ·  · R. Prof. Lourival Gomes Machado, 274 - 272
+2026-01-28 19:47:02 [DEBUG]   [3] Extraído: Angusteria
+2026-01-28 19:47:02 [DEBUG]   Texto do card 'La Braciera Pizzaria - Pizza Napoletana': La Braciera Pizzaria - Pizza Napoletana
+4,8(4.166) · $$
+Pizza ·  · R. Conselheiro Saraiva, 664
+Restaurante italiano des...
+2026-01-28 19:47:02 [DEBUG]   [4] Extraído: La Braciera Pizzaria - Pizza Napoletana
+2026-01-28 19:47:02 [DEBUG]   Texto do card 'La Crosta Forneria': La Crosta Forneria
+4,9(1.464) · $$
+Pizza ·  · R. Pontins, 52
 Aberto · Fecha 23:00
  
 Refeição no local
-...
-2026-01-28 17:29:33 [DEBUG]   [5] Extraído: La Mordida
-2026-01-28 17:29:33 [DEBUG]   Texto do card 'Rainha da Jovita': Rainha da Jovita
+·
+Para viagem
+·
+E...
+2026-01-28 19:47:02 [DEBUG]   [5] Extraído: La Crosta Forneria
+2026-01-28 19:47:02 [DEBUG]   Texto do card 'Famiglia Mancini Trattoria': Famiglia Mancini Trattoria
+4,7(27.906) · $$$
+Italiana ·  · Rua Avanhandava, 81, Bela Vista
+Massas e frios em ambiente a...
+2026-01-28 19:47:02 [DEBUG]   [6] Extraído: Famiglia Mancini Trattoria
+2026-01-28 19:47:02 [DEBUG]   Texto do card 'Sargento Garcia': Sargento Garcia
+4,7(886) · $$$
+Restaurante ·  · R. Padre Luciano, 154
+Restaurante com pratos do mediterrâneo
+Aberto · F...
+2026-01-28 19:47:02 [DEBUG]   [7] Extraído: Sargento Garcia
+2026-01-28 19:47:02 [DEBUG]   Texto do card 'Rainha da Jovita': Rainha da Jovita
 4,6(172) · R$ 20–40
 Restaurante · Rua Dr. Olavo Egídio, 449
 Aberto · Fecha 23:00
@@ -526,8 +221,8 @@ Aberto · Fecha 23:00
 Refeição no local
 ·
 ...
-2026-01-28 17:29:33 [DEBUG]   [6] Extraído: Rainha da Jovita
-2026-01-28 17:29:33 [DEBUG]   Texto do card 'La Ficazza': La Ficazza
+2026-01-28 19:47:02 [DEBUG]   [8] Extraído: Rainha da Jovita
+2026-01-28 19:47:02 [DEBUG]   Texto do card 'La Ficazza': La Ficazza
 4,9(730) · R$ 80–120
 Italiana ·  · R. Dr. César, 1160
 Aberto · Fecha 22:00
@@ -535,8 +230,17 @@ Aberto · Fecha 22:00
 Refeição no local
 ·
 Retirada na...
-2026-01-28 17:29:33 [DEBUG]   [7] Extraído: La Ficazza
-2026-01-28 17:29:33 [DEBUG]   Texto do card 'Sabor de Santana': Sabor de Santana
+2026-01-28 19:47:02 [DEBUG]   [9] Extraído: La Ficazza
+2026-01-28 19:47:02 [DEBUG]   Texto do card 'Seu Manuel Restaurante': Seu Manuel Restaurante
+4,8(519)
+Europeia ·  · R. Ismael Neri, 441
+Aberto · Fecha 23:00
+ 
+Refeição no local
+·
+Retirada n...
+2026-01-28 19:47:02 [DEBUG]   [10] Extraído: Seu Manuel Restaurante
+2026-01-28 19:47:02 [DEBUG]   Texto do card 'Sabor de Santana': Sabor de Santana
 4,6(194) · R$ 20–40
 Restaurante · R. Duarte de Azevedo, 352
 Aberto · Fecha 00:00
@@ -544,8 +248,37 @@ Aberto · Fecha 00:00
 Refeição no local
 ·
 ...
-2026-01-28 17:29:33 [DEBUG]   [8] Extraído: Sabor de Santana
-2026-01-28 17:29:33 [DEBUG]   Texto do card 'LeLui Bar e Cozinha': LeLui Bar e Cozinha
+2026-01-28 19:47:02 [DEBUG]   [11] Extraído: Sabor de Santana
+2026-01-28 19:47:03 [DEBUG]   Texto do card 'Dona Carmela': Dona Carmela
+4,5(3.595) · $$
+Italiana ·  · R. Dr. César, 944
+Local com frutos do mar e fondue
+Aberto · Fecha 23:00
+ 
+Re...
+2026-01-28 19:47:03 [DEBUG]   [12] Extraído: Dona Carmela
+2026-01-28 19:47:03 [DEBUG]   Texto do card 'Crostini Osteria': Crostini Osteria
+4,8(410)
+Italiana ·  · R. Dr. César, 1243
+Aberto · Fecha 22:00
+ 
+Refeição no local
+·
+Retirada na porta...
+2026-01-28 19:47:03 [DEBUG]   [13] Extraído: Crostini Osteria
+2026-01-28 19:47:03 [DEBUG]   Texto do card 'Restaurante Nova Zuquim (Alto de Santana)': Restaurante Nova Zuquim (Alto de Santana)
+4,3(114) · R$ 20–40
+Restaurante ·  · R. Dr. Zuquim, 1941
+Aberto · Fecha 21:00...
+2026-01-28 19:47:03 [DEBUG]   [14] Extraído: Restaurante Nova Zuquim (Alto de Santana)
+2026-01-28 19:47:03 [DEBUG]   Texto do card 'Salvi Café e Cozinha - Santana': Salvi Café e Cozinha - Santana
+4,6(1.216) · $$
+Restaurante ·  · R. Tupiguaes, 140
+Aberto · Fecha 22:00
+ 
+Refeição no lo...
+2026-01-28 19:47:03 [DEBUG]   [15] Extraído: Salvi Café e Cozinha - Santana
+2026-01-28 19:47:03 [DEBUG]   Texto do card 'LeLui Bar e Cozinha': LeLui Bar e Cozinha
 4,8(1.018) · $$
 Restaurante ·  · R. Jacuna, 302
 Aberto · Fecha 00:00
@@ -553,132 +286,75 @@ Aberto · Fecha 00:00
 Refeição no local
 ·
 Para via...
-2026-01-28 17:29:33 [DEBUG]   [9] Extraído: LeLui Bar e Cozinha
-2026-01-28 17:29:33 [DEBUG]   Texto do card 'Dom ramiro': Dom ramiro
+2026-01-28 19:47:03 [DEBUG]   [16] Extraído: LeLui Bar e Cozinha
+2026-01-28 19:47:03 [DEBUG]   Texto do card 'Aoka Parrilla e Bar': Aoka Parrilla e Bar
+4,8(238) · R$ 40–60
+Restaurante ·  · Av. Leôncio de Magalhães, 84
+Aberto · Fecha 22:00
+ 
+Refeição n...
+2026-01-28 19:47:03 [DEBUG]   [17] Extraído: Aoka Parrilla e Bar
+2026-01-28 19:47:03 [DEBUG]   Texto do card 'Santo Mar Restaurante — Unidade Santana': Santo Mar Restaurante — Unidade Santana
+4,4(3.898) · $$
+Frutos do mar ·  · Av. Luiz Dumont Villares, 1306
+Aberto · Fech...
+2026-01-28 19:47:03 [DEBUG]   [18] Extraído: Santo Mar Restaurante — Unidade Santana
+2026-01-28 19:47:03 [DEBUG]   Texto do card 'Dom ramiro': Dom ramiro
 4,5(3.579) · $$
 Brasileira ·  · R. Dr. César, 105
 Gastropub aconchegante com música
 Aberto · Fecha 01:00
  
 R...
-2026-01-28 17:29:33 [DEBUG]   [10] Extraído: Dom ramiro
-2026-01-28 17:29:33 [DEBUG]   Texto do card 'Restaurante Nova Zuquim (Alto de Santana)': Restaurante Nova Zuquim (Alto de Santana)
-4,3(114) · R$ 20–40
-Restaurante ·  · R. Dr. Zuquim, 1941
-Aberto · Fecha 21:00...
-2026-01-28 17:29:33 [DEBUG]   [11] Extraído: Restaurante Nova Zuquim (Alto de Santana)
-2026-01-28 17:29:33 [DEBUG]   Texto do card 'Salvi Café e Cozinha - Santana': Salvi Café e Cozinha - Santana
-4,6(1.216) · $$
-Restaurante ·  · R. Tupiguaes, 140
-Aberto · Fecha 22:00
- 
-Refeição no lo...
-2026-01-28 17:29:33 [DEBUG]   [12] Extraído: Salvi Café e Cozinha - Santana
-2026-01-28 17:29:33 [DEBUG]   Texto do card 'Pecorino Cucina Mediterranea Braz Leme: Restaurante, Delivery São Paulo SP': Pecorino Cucina Mediterranea Braz Leme: Restaurante, Delivery São Paulo SP
+2026-01-28 19:47:03 [DEBUG]   [19] Extraído: Dom ramiro
+2026-01-28 19:47:03 [DEBUG]   Texto do card 'Pecorino Cucina Mediterranea Braz Leme: Restaurante, Delivery São Paulo SP': Pecorino Cucina Mediterranea Braz Leme: Restaurante, Delivery São Paulo SP
 4,6(1.549)
 Mediterrânea ·  · Av. Braz Leme, ...
-2026-01-28 17:29:33 [DEBUG]   [13] Extraído: Pecorino Cucina Mediterranea Braz Leme: Restaurante, Delivery São Paulo SP
-2026-01-28 17:29:33 [DEBUG]   Texto do card 'Santo Mar Restaurante — Unidade Santana': Santo Mar Restaurante — Unidade Santana
-4,4(3.898) · $$
-Frutos do mar ·  · Av. Luiz Dumont Villares, 1306
-Aberto · Fech...
-2026-01-28 17:29:33 [DEBUG]   [14] Extraído: Santo Mar Restaurante — Unidade Santana
-2026-01-28 17:29:33 [DEBUG]   Texto do card 'Una Rooftop Restaurante & Bar': Una Rooftop Restaurante & Bar
-4,2(363)
-Restaurante ·  · R. Prof. Lourival Gomes Machado, 273
-Aberto · Fecha 00:00
- 
-Ref...
-2026-01-28 17:29:33 [DEBUG]   [15] Extraído: Una Rooftop Restaurante & Bar
-2026-01-28 17:29:33 [DEBUG]   Texto do card 'Restaurante Fulô - Cozinha Regional': Restaurante Fulô - Cozinha Regional
-4,4(1.741) · $$
-Brasileira ·  · R. Lucas de Freitas de Azevedo, 87
-Aberto · Fecha 0...
-2026-01-28 17:29:33 [DEBUG]   [16] Extraído: Restaurante Fulô - Cozinha Regional
-2026-01-28 17:29:33 [DEBUG]   Texto do card 'Quintal Brasil': Quintal Brasil
-4,2(770) · $$
-Bar · R. Alfredo Pujol, 853
-Comida brasileira e muito samba
-Aberto · Fecha 00:00
- 
-Refeição...
-2026-01-28 17:29:33 [DEBUG]   [17] Extraído: Quintal Brasil
-2026-01-28 17:29:33 [DEBUG]   Texto do card 'La Braciera Pizzaria - Pizza Napoletana': La Braciera Pizzaria - Pizza Napoletana
-4,8(4.166) · $$
-Pizza ·  · R. Conselheiro Saraiva, 664
-Restaurante italiano des...
-2026-01-28 17:29:33 [DEBUG]   [18] Extraído: La Braciera Pizzaria - Pizza Napoletana
-2026-01-28 17:29:33 [DEBUG]   Texto do card 'Point Santana': Point Santana
-4,3(572) · R$ 20–60
-Restaurante ·  · R. Voluntários da Pátria, 3670
-Aberto · Fecha 00:00
- 
-Refeição no lo...
-2026-01-28 17:29:33 [DEBUG]   [19] Extraído: Point Santana
-2026-01-28 17:29:33 [DEBUG]   Texto do card 'Restaurante Coco Bambu Anhembi': Restaurante Coco Bambu Anhembi
-4,8(45.025) · $$$
-Frutos do mar ·  · Av. Braz Leme, 201
-Aberto · Fecha 00:00
- 
-Refeição ...
-2026-01-28 17:29:33 [DEBUG]   [20] Extraído: Restaurante Coco Bambu Anhembi
-2026-01-28 17:29:33 [DEBUG] Limite de 20 resultados atingido.
-2026-01-28 17:29:33 [INFO] Total extraído para 'restaurante': 20 estabelecimentos.
-2026-01-28 17:29:33 [INFO] Coleta de 'restaurante' concluída: 20 estabelecimentos encontrados.
-2026-01-28 17:29:33 [INFO] ----------------------------------------
-2026-01-28 17:29:33 [INFO] BUSCANDO: SORVETERIA
-2026-01-28 17:29:33 [INFO] Termo de busca: 'sorveterias em São Paulo'
-2026-01-28 17:29:33 [INFO] ----------------------------------------
-2026-01-28 17:29:33 [INFO] Acessando Google Maps para busca: 'sorveterias em São Paulo'
-2026-01-28 17:29:34 [DEBUG] Campo de busca encontrado.
-2026-01-28 17:29:40 [INFO] Busca realizada: 'sorveterias em São Paulo'
-2026-01-28 17:29:41 [DEBUG] Feed de resultados carregado.
-2026-01-28 17:29:46 [DEBUG] Iniciando scroll no painel de resultados...
-2026-01-28 17:29:48 [DEBUG] Scroll 1/5 realizado.
-2026-01-28 17:29:50 [DEBUG] Scroll 2/5 realizado.
-2026-01-28 17:29:52 [DEBUG] Scroll 3/5 realizado.
-2026-01-28 17:29:54 [DEBUG] Scroll 4/5 realizado.
-2026-01-28 17:29:56 [DEBUG] Scroll 5/5 realizado.
-2026-01-28 17:29:56 [INFO] Scroll completo: 5 iterações realizadas.
-2026-01-28 17:29:56 [INFO] Encontrados 40 cards para 'sorveteria'.
-2026-01-28 17:29:56 [DEBUG]   Texto do card 'Dezato Gelato - Augusto Tolle': Dezato Gelato - Augusto Tolle
+2026-01-28 19:47:03 [DEBUG]   [20] Extraído: Pecorino Cucina Mediterranea Braz Leme: Restaurante, Delivery São Paulo SP
+2026-01-28 19:47:03 [DEBUG] Limite de 20 resultados atingido.
+2026-01-28 19:47:03 [INFO] Total extraído para 'restaurante': 20 estabelecimentos.
+2026-01-28 19:47:03 [INFO] Coleta de 'restaurante' concluída: 20 estabelecimentos encontrados.
+2026-01-28 19:47:03 [INFO] ----------------------------------------
+2026-01-28 19:47:03 [INFO] BUSCANDO: SORVETERIA
+2026-01-28 19:47:03 [INFO] Termo de busca: 'sorveterias em São Paulo'
+2026-01-28 19:47:03 [INFO] ----------------------------------------
+2026-01-28 19:47:03 [INFO] Acessando Google Maps para busca: 'sorveterias em São Paulo'
+2026-01-28 19:47:03 [DEBUG] Campo de busca encontrado.
+2026-01-28 19:47:09 [INFO] Busca realizada: 'sorveterias em São Paulo'
+2026-01-28 19:47:10 [DEBUG] Feed de resultados carregado.
+2026-01-28 19:47:15 [DEBUG] Iniciando scroll no painel de resultados...
+2026-01-28 19:47:17 [DEBUG] Scroll 1/5 realizado.
+2026-01-28 19:47:19 [DEBUG] Scroll 2/5 realizado.
+2026-01-28 19:47:21 [DEBUG] Scroll 3/5 realizado.
+2026-01-28 19:47:24 [DEBUG] Scroll 4/5 realizado.
+2026-01-28 19:47:26 [DEBUG] Scroll 5/5 realizado.
+2026-01-28 19:47:26 [INFO] Scroll completo: 5 iterações realizadas.
+2026-01-28 19:47:26 [INFO] Encontrados 42 cards para 'sorveteria'.
+2026-01-28 19:47:26 [DEBUG]   Texto do card 'Dezato Gelato - Augusto Tolle': Dezato Gelato - Augusto Tolle
 4,8(504) · $$
 Sorvete ·  · R. Augusto Tolle, 279
-Aberto · Fecha 20:00
- 
-Refeição no local...
-2026-01-28 17:29:56 [DEBUG]   [1] Extraído: Dezato Gelato - Augusto Tolle
-2026-01-28 17:29:56 [DEBUG]   Texto do card 'Latte di Fiori': Latte di Fiori
+Fecha em breve · 20:00 · Abre qui. às 13...
+2026-01-28 19:47:26 [DEBUG]   [1] Extraído: Dezato Gelato - Augusto Tolle
+2026-01-28 19:47:26 [DEBUG]   Texto do card 'Latte di Fiori': Latte di Fiori
 4,8(416)
 Sorvete · Av. Águas de São Pedro, 427
-Aberto · Fecha 20:00
+Fecha em breve · 20:00 · Abre qui. às 13:00
  
 Entrega...
-2026-01-28 17:29:56 [DEBUG]   [2] Extraído: Latte di Fiori
-2026-01-28 17:29:56 [DEBUG]   Texto do card 'Paleteria paulista - unidade Santana': Paleteria paulista - unidade Santana
+2026-01-28 19:47:26 [DEBUG]   [2] Extraído: Latte di Fiori
+2026-01-28 19:47:26 [DEBUG]   Texto do card 'Paleteria paulista - unidade Santana': Paleteria paulista - unidade Santana
 4,8(99)
 Sorvete ·  · Rua Dr. Olavo Egídio, 798
-Aberto · Fecha 20:00
- 
-Retirada na ...
-2026-01-28 17:29:56 [DEBUG]   [3] Extraído: Paleteria paulista - unidade Santana
-2026-01-28 17:29:56 [DEBUG]   Texto do card 'Sou ice - Sorvetes e Congelados': Sou ice - Sorvetes e Congelados
-4,6(69) · $
-Sorvete · Av. Nova Cantareira, 346
-Aberto · Fecha 19:15
- 
-Compras na loja
-·
-...
-2026-01-28 17:29:56 [DEBUG]   [4] Extraído: Sou ice - Sorvetes e Congelados
-2026-01-28 17:29:56 [DEBUG]   Texto do card 'Sorvetes Rochinha Santana': Sorvetes Rochinha Santana
+Fecha em breve · 20:00 · Abre qui. ...
+2026-01-28 19:47:26 [DEBUG]   [3] Extraído: Paleteria paulista - unidade Santana
+2026-01-28 19:47:26 [DEBUG]   Texto do card 'Sorvetes Rochinha Santana': Sorvetes Rochinha Santana
 4,6(304) · $$
 Sorvete ·  · R. Dom Henrique Mourão, 216
 Aberto · Fecha 21:00
  
 Retirada na loj...
-2026-01-28 17:29:56 [DEBUG]   [5] Extraído: Sorvetes Rochinha Santana
-2026-01-28 17:29:56 [DEBUG]   Texto do card 'Gelato Borelli Santana': Gelato Borelli Santana
+2026-01-28 19:47:26 [DEBUG]   [4] Extraído: Sorvetes Rochinha Santana
+2026-01-28 19:47:26 [DEBUG]   Texto do card 'Gelato Borelli Santana': Gelato Borelli Santana
 4,5(431)
 Sorvete ·  · R. Tupiguaes, 48 - Loja 02
 Aberto · Fecha 23:00
@@ -686,8 +362,8 @@ Aberto · Fecha 23:00
 Compras na loja
 ·
 Retira...
-2026-01-28 17:29:56 [DEBUG]   [6] Extraído: Gelato Borelli Santana
-2026-01-28 17:29:56 [DEBUG]   Texto do card 'Bacio di Latte - Augusto Tolle': Bacio di Latte - Augusto Tolle
+2026-01-28 19:47:26 [DEBUG]   [5] Extraído: Gelato Borelli Santana
+2026-01-28 19:47:26 [DEBUG]   Texto do card 'Bacio di Latte - Augusto Tolle': Bacio di Latte - Augusto Tolle
 4,4(143)
 Sorvete ·  · R. Augusto Tolle, 619
 Aberto · Fecha 22:00
@@ -696,28 +372,14 @@ Retirada na loja
  
 
 ...
-2026-01-28 17:29:56 [DEBUG]   [7] Extraído: Bacio di Latte - Augusto Tolle
-2026-01-28 17:29:56 [DEBUG]   Texto do card 'Lambisk Sorvetes': Lambisk Sorvetes
-4,7(192) · $
-Sorvete ·  · Rua : Conselheiro Moreira de Barros, 1002
-Aberto · Fecha 20:00
- 
-Entrega...
-2026-01-28 17:29:56 [DEBUG]   [8] Extraído: Lambisk Sorvetes
-2026-01-28 17:29:56 [DEBUG]   Texto do card 'Frida & Mina Sorveteria': Frida & Mina Sorveteria
+2026-01-28 19:47:26 [DEBUG]   [6] Extraído: Bacio di Latte - Augusto Tolle
+2026-01-28 19:47:26 [DEBUG]   Texto do card 'Frida & Mina Sorveteria': Frida & Mina Sorveteria
 4,6(6.987) · $$
 Sorvete · R. Artur de Azevedo, 1147
 Produtos naturais em ambiente agradável
 Aber...
-2026-01-28 17:29:56 [DEBUG]   [9] Extraído: Frida & Mina Sorveteria
-2026-01-28 17:29:56 [DEBUG]   Texto do card 'OGGI SORVETES PARADA INGLESA': OGGI SORVETES PARADA INGLESA
-4,6(378) · $
-Sorvete ·  · Av. Gen. Ataliba Leonel, 1976
-Aberto · Fecha 19:00
- 
-Sem refeiçã...
-2026-01-28 17:29:56 [DEBUG]   [10] Extraído: OGGI SORVETES PARADA INGLESA
-2026-01-28 17:29:56 [DEBUG]   Texto do card 'Dezato Gelato - Braz Leme': Dezato Gelato - Braz Leme
+2026-01-28 19:47:26 [DEBUG]   [7] Extraído: Frida & Mina Sorveteria
+2026-01-28 19:47:26 [DEBUG]   Texto do card 'Dezato Gelato - Braz Leme': Dezato Gelato - Braz Leme
 4,8(260)
 Sorvete ·  · Av. Braz Leme, 1200 - Loja 06
 Aberto · Fecha 22:00
@@ -725,60 +387,41 @@ Aberto · Fecha 22:00
 Compras na loja
 ·
 ...
-2026-01-28 17:29:56 [DEBUG]   [11] Extraído: Dezato Gelato - Braz Leme
-2026-01-28 17:29:56 [DEBUG]   Texto do card 'The Best Açaí - Água Fria': The Best Açaí - Água Fria
-4,7(31)
-Sorvete ·  · Av. Nova Cantareira, 335
-Aberto · Fecha 20:00
- 
-Compras na loja
-·
-Retira...
-2026-01-28 17:29:56 [DEBUG]   [12] Extraído: The Best Açaí - Água Fria
-2026-01-28 17:29:56 [DEBUG]   Texto do card 'Candy Village Sorvete Infancia vintage': Candy Village Sorvete Infancia vintage
-4,9(33)
-Sorvete · R. Jovita
-Fecha em breve · 18:00 · Abre qui. às 08:00...
-2026-01-28 17:29:56 [DEBUG]   [13] Extraído: Candy Village Sorvete Infancia vintage
-2026-01-28 17:29:56 [DEBUG]   Texto do card 'Sorveteria Lafer & Açaí': Sorveteria Lafer & Açaí
+2026-01-28 19:47:26 [DEBUG]   [8] Extraído: Dezato Gelato - Braz Leme
+2026-01-28 19:47:26 [DEBUG]   Texto do card 'Sorveteria Lafer & Açaí': Sorveteria Lafer & Açaí
 4,6(982) · $
 Sorvete ·  · R. Maria Curupaiti, 1520
 Sorvetes e açaí em atmosfera relaxada
 Aberto...
-2026-01-28 17:29:56 [DEBUG]   [14] Extraído: Sorveteria Lafer & Açaí
-2026-01-28 17:29:56 [DEBUG]   Texto do card 'Sou Ice Santa Teresinha - Sorvetes e Congelados': Sou Ice Santa Teresinha - Sorvetes e Congelados
-4,8(49)
-Sorvete ·  · R. Conselheiro Moreira de Barros, 1309 - Loja 01
-A...
-2026-01-28 17:29:56 [DEBUG]   [15] Extraído: Sou Ice Santa Teresinha - Sorvetes e Congelados
-2026-01-28 17:29:56 [DEBUG]   Texto do card 'Sorveteria do Centro': Sorveteria do Centro
+2026-01-28 19:47:26 [DEBUG]   [9] Extraído: Sorveteria Lafer & Açaí
+2026-01-28 19:47:26 [DEBUG]   Texto do card 'Sorveteria do Centro': Sorveteria do Centro
 4,4(2.875) · $$
 Sorvete · R. Epitácio Pessoa, 94
 Sorveteria com atmosfera boêmia
 Aberto · Fecha 22:...
-2026-01-28 17:29:56 [DEBUG]   [16] Extraído: Sorveteria do Centro
-2026-01-28 17:29:56 [DEBUG]   Texto do card 'Bacio di Latte Gelato Puro': Bacio di Latte Gelato Puro
+2026-01-28 19:47:26 [DEBUG]   [10] Extraído: Sorveteria do Centro
+2026-01-28 19:47:26 [DEBUG]   Texto do card 'Bacio di Latte Gelato Puro': Bacio di Latte Gelato Puro
 4,4(1.593) · $$$
 Sorvete ·  · Av. Braz Leme, 2378
 Aberto · Fecha 22:00
  
 Refeição no local
 ·...
-2026-01-28 17:29:56 [DEBUG]   [17] Extraído: Bacio di Latte Gelato Puro
-2026-01-28 17:29:56 [DEBUG]   Texto do card 'Paraiso dos Sorvetes': Paraiso dos Sorvetes
-4,7(135) · $
-Sorvete · Av. Conceição, 898
-Aberto · Fecha 19:00
+2026-01-28 19:47:26 [DEBUG]   [11] Extraído: Bacio di Latte Gelato Puro
+2026-01-28 19:47:26 [DEBUG]   Texto do card 'Lambisk Sorvetes': Lambisk Sorvetes
+4,7(192) · $
+Sorvete ·  · Rua : Conselheiro Moreira de Barros, 1002
+Fecha em breve · 20:00 · Abre sáb....
+2026-01-28 19:47:26 [DEBUG]   [12] Extraído: Lambisk Sorvetes
+2026-01-28 19:47:26 [DEBUG]   Texto do card 'The Best Açaí - Água Fria': The Best Açaí - Água Fria
+4,7(31)
+Sorvete ·  · Av. Nova Cantareira, 335
+Fecha em breve · 20:00 · Abre sex. às 12:00
  
-Retirada na loja...
-2026-01-28 17:29:56 [DEBUG]   [18] Extraído: Paraiso dos Sorvetes
-2026-01-28 17:29:56 [DEBUG]   Texto do card 'Sorvete Vintage - Sorvete para eventos | Açaí e Milkshake': Sorvete Vintage - Sorvete para eventos | Açaí e Milkshake
-4,9(87)
-Sorvete · Av. Gen. Ataliba Leonel, 3837
-Aberto · Fecha...
-2026-01-28 17:29:56 [DEBUG]   [19] Extraído: Sorvete Vintage - Sorvete para eventos | Açaí e Milkshake
-2026-01-28 17:29:56 [DEBUG]   Texto do card 'Bacio di Latte': Bacio di Latte
-4,5(807) · $$$
+C...
+2026-01-28 19:47:26 [DEBUG]   [13] Extraído: The Best Açaí - Água Fria
+2026-01-28 19:47:26 [DEBUG]   Texto do card 'Bacio di Latte': Bacio di Latte
+4,5(808) · $$$
 Sorvete ·  · Tv. Casalbuono, 120
 Aberto · Fecha 22:00
  
@@ -786,507 +429,62 @@ Refeição no local
 ·
 Para viagem
 ·...
-2026-01-28 17:29:56 [DEBUG]   [20] Extraído: Bacio di Latte
-2026-01-28 17:29:56 [DEBUG] Limite de 20 resultados atingido.
-2026-01-28 17:29:56 [INFO] Total extraído para 'sorveteria': 20 estabelecimentos.
-2026-01-28 17:29:56 [INFO] Coleta de 'sorveteria' concluída: 20 estabelecimentos encontrados.
-2026-01-28 17:29:56 [INFO] ============================================================
-2026-01-28 17:29:56 [INFO] TOTAL de estabelecimentos coletados: 60
-2026-01-28 17:29:56 [INFO] Salvando resultados em JSON...
-2026-01-28 17:29:56 [INFO] Arquivo JSON salvo com sucesso: c:\Users\bruno.su\Desktop\rpa-google-maps\resultados.json
-2026-01-28 17:29:56 [INFO] Gerando planilha Excel...
-2026-01-28 17:29:56 [INFO] Planilha Excel salva com sucesso: c:\Users\bruno.su\Desktop\rpa-google-maps\resultados.xlsx
-2026-01-28 17:30:00 [INFO] Navegador fechado com sucesso.
-2026-01-28 17:30:00 [INFO] ============================================================
-2026-01-28 17:30:00 [INFO] AUTOMAÇÃO FINALIZADA — Tempo total: 75.5s
-2026-01-28 17:30:00 [INFO] Resultados: 60 estabelecimentos
-2026-01-28 17:30:00 [INFO] Arquivos gerados: c:\Users\bruno.su\Desktop\rpa-google-maps\resultados.json
-2026-01-28 17:30:00 [INFO]                   c:\Users\bruno.su\Desktop\rpa-google-maps\resultados.xlsx
-2026-01-28 17:30:00 [INFO] Log completo:     c:\Users\bruno.su\Desktop\rpa-google-maps\automation.log
-2026-01-28 17:30:00 [INFO] ============================================================
-2026-01-28 17:38:25 [INFO] ============================================================
-2026-01-28 17:38:25 [INFO] INÍCIO DA AUTOMAÇÃO RPA - GOOGLE MAPS
-2026-01-28 17:38:25 [INFO] Cidade alvo: São Paulo
-2026-01-28 17:38:25 [INFO] Tipos de estabelecimento: ['academia', 'restaurante', 'sorveteria']
-2026-01-28 17:38:25 [INFO] Máximo por tipo: 20
-2026-01-28 17:38:25 [INFO] ============================================================
-2026-01-28 17:38:25 [INFO] Inicializando o Chrome WebDriver...
-2026-01-28 17:38:25 [DEBUG] Modo visível ativado (com interface gráfica).
-2026-01-28 17:38:26 [INFO] Chrome WebDriver inicializado com sucesso.
-2026-01-28 17:38:26 [INFO] ----------------------------------------
-2026-01-28 17:38:26 [INFO] BUSCANDO: ACADEMIA
-2026-01-28 17:38:26 [INFO] Termo de busca: 'academias em São Paulo'
-2026-01-28 17:38:26 [INFO] ----------------------------------------
-2026-01-28 17:38:26 [INFO] Acessando Google Maps para busca: 'academias em São Paulo'
-2026-01-28 17:38:28 [DEBUG] Campo de busca encontrado.
-2026-01-28 17:38:33 [INFO] Busca realizada: 'academias em São Paulo'
-2026-01-28 17:38:35 [DEBUG] Feed de resultados carregado.
-2026-01-28 17:38:40 [DEBUG] Iniciando scroll no painel de resultados...
-2026-01-28 17:38:42 [DEBUG] Scroll 1/5 realizado.
-2026-01-28 17:38:44 [DEBUG] Scroll 2/5 realizado.
-2026-01-28 17:38:46 [DEBUG] Scroll 3/5 realizado.
-2026-01-28 17:38:48 [DEBUG] Scroll 4/5 realizado.
-2026-01-28 17:38:50 [DEBUG] Scroll 5/5 realizado.
-2026-01-28 17:38:50 [INFO] Scroll completo: 5 iterações realizadas.
-2026-01-28 17:38:50 [INFO] Encontrados 36 cards para 'academia'.
-2026-01-28 17:38:50 [DEBUG]   Texto do card 'BIO RITMO Academia | Pedro Doll': Patrocinado
-
-BIO RITMO Academia | Pedro Doll
-4,3(319)
-Academia · 564 Rua Pedro Doll
+2026-01-28 19:47:26 [DEBUG]   [14] Extraído: Bacio di Latte
+2026-01-28 19:47:26 [DEBUG]   Texto do card 'Belari Gelato Artesanal - Bairro do Limão': Belari Gelato Artesanal - Bairro do Limão
+4,9(2.167)
+Sorvete ·  · Av. Casa Verde, 3527
 Aberto · Fecha 23:00
- 
- 
-Descubra s...
-2026-01-28 17:38:50 [DEBUG]   [1] Extraído: BIO RITMO Academia | Pedro Doll
-2026-01-28 17:38:50 [DEBUG]   Texto do card '30'fit - Treinamento Funcional': Patrocinado
-
-30'fit - Treinamento Funcional
-5,0(151)
-Sala de fitness · 524 Rua Francisca Júlia
-Aberto · Fecha 22:00
- 
- ...
-2026-01-28 17:38:50 [DEBUG]   [2] Extraído: 30'fit - Treinamento Funcional
-2026-01-28 17:38:50 [DEBUG]   Texto do card 'K1 GYM SANTANA': K1 GYM SANTANA
-5,0(118)
-Academia ·  · R. Conselheiro Saraiva, 207
-Aberto · Fecha 21:30...
-2026-01-28 17:38:50 [DEBUG]   [3] Extraído: K1 GYM SANTANA
-2026-01-28 17:38:50 [DEBUG]   Texto do card 'Black Fitness Club': Black Fitness Club
-4,7(196)
-Academia ·  · R. Gaspar Soares, 88
-Aberto · Fecha 23:00...
-2026-01-28 17:38:50 [DEBUG]   [4] Extraído: Black Fitness Club
-2026-01-28 17:38:50 [DEBUG]   Texto do card 'BlueFit Santana': BlueFit Santana
-4,5(691)
-Academia ·  · R. Dr. Zuquim, 1872
-Aberto · Fecha 23:00
- 
-Serviços no local...
-2026-01-28 17:38:50 [DEBUG]   [5] Extraído: BlueFit Santana
-2026-01-28 17:38:50 [DEBUG]   Texto do card 'Health Academy': Health Academy
-5,0(18)
-Academia ·  · R. Voluntários da Pátria, 2468 - Conjunto 167
-Aberto · Fecha 21:00
- 
-Serviços no l...
-2026-01-28 17:38:50 [DEBUG]   [6] Extraído: Health Academy
-2026-01-28 17:38:50 [DEBUG]   Texto do card 'Tracer Parkour - Santana': Tracer Parkour - Santana
-4,8(52)
-Escola de esportes ·  · R. Dr. Zuquim, 859
-Aberto · Fecha 21:30...
-2026-01-28 17:38:50 [DEBUG]   [7] Extraído: Tracer Parkour - Santana
-2026-01-28 17:38:50 [DEBUG]   Texto do card 'Silver | Fitness & Spa | Santana - Zona Norte - SP': Silver | Fitness & Spa | Santana - Zona Norte - SP
-4,8(110)
-Academia ·  · R. Conselheiro Moreira de Barros, 636
-Aberto ...
-2026-01-28 17:38:50 [DEBUG]   [8] Extraído: Silver | Fitness & Spa | Santana - Zona Norte - SP
-2026-01-28 17:38:50 [DEBUG]   Texto do card 'Academia Butterfly': Academia Butterfly
-4,6(148)
-Sala de fitness ·  · R. Conselheiro Moreira de Barros, 221
-Aberto · Fecha 22:00...
-2026-01-28 17:38:50 [DEBUG]   [9] Extraído: Academia Butterfly
-2026-01-28 17:38:50 [DEBUG]   Texto do card 'Academia C4 GYM - Unid. Santana': Academia C4 GYM - Unid. Santana
-3,9(156)
-Academia ·  · Rua Dr. Olavo Egídio, 632
-Aberto · Fecha 23:00...
-2026-01-28 17:38:50 [DEBUG]   [10] Extraído: Academia C4 GYM - Unid. Santana
-2026-01-28 17:38:50 [DEBUG]   Texto do card 'Studio JD Treinos Coletivos': Studio JD Treinos Coletivos
-4,6(18)
-Academia ·  · Rua Benvinda Aparecida de Abreu Leme, 43 - Sala 3
-Aberto · Fecha 19:0...
-2026-01-28 17:38:50 [DEBUG]   [11] Extraído: Studio JD Treinos Coletivos
-2026-01-28 17:38:50 [DEBUG]   Texto do card 'Academia Acqua Ville': Academia Acqua Ville
-4,5(233)
-Academia ·  · R. Ten. Blum, 93
-Aberto · Fecha 22:00...
-2026-01-28 17:38:50 [DEBUG]   [12] Extraído: Academia Acqua Ville
-2026-01-28 17:38:50 [DEBUG]   Texto do card '30'fit - Treinamento Funcional': 30'fit - Treinamento Funcional
-5,0(151)
-Sala de fitness · R. Francisca Júlia, 524
-Aberto · Fecha 22:00
- 
-Serviços no loc...
-2026-01-28 17:38:50 [DEBUG]   [13] Extraído: 30'fit - Treinamento Funcional
-2026-01-28 17:38:50 [DEBUG]   Texto do card 'High Point Academia': High Point Academia
-4,7(510)
-Academia ·  · Rua Chemin Del Pra, 58
-Aberto · Fecha 23:00...
-2026-01-28 17:38:50 [DEBUG]   [14] Extraído: High Point Academia
-2026-01-28 17:38:50 [DEBUG]   Texto do card 'Studio Livinng': Studio Livinng
-4,9(166)
-Academia ·  · R. Conselheiro Moreira de Barros, 711
-Aberto · Fecha 21:00
- 
-Aulas on-line...
-2026-01-28 17:38:50 [DEBUG]   [15] Extraído: Studio Livinng
-2026-01-28 17:38:50 [DEBUG]   Texto do card 'PERSONAL S/A - Academia de Treinamento Funcional no Jardim São Paulo': PERSONAL S/A - Academia de Treinamento Funcional no Jardim São Paulo
-4,8(62)
-Academia ·  · Av. Nova Cantareira, 624
-Abe...
-2026-01-28 17:38:50 [DEBUG]   [16] Extraído: PERSONAL S/A - Academia de Treinamento Funcional no Jardim São Paulo
-2026-01-28 17:38:50 [DEBUG]   Texto do card 'Academia K2 Fitness Technology': Academia K2 Fitness Technology
-4,1(598)
-Sala de fitness ·  · Av. Luiz Dumont Villares, 200
-Aberto · Fecha 22:00...
-2026-01-28 17:38:50 [DEBUG]   [17] Extraído: Academia K2 Fitness Technology
-2026-01-28 17:38:50 [DEBUG]   Texto do card 'BW Academia | Santana - Zona Norte - São Paulo': BW Academia | Santana - Zona Norte - São Paulo
-4,9(1.293)
-Academia ·  · R. Mateus Leme, 114
-Aberto · Fecha 23:00
- 
-Serv...
-2026-01-28 17:38:50 [DEBUG]   [18] Extraído: BW Academia | Santana - Zona Norte - São Paulo
-2026-01-28 17:38:50 [DEBUG]   Texto do card 'Smarkim Gym Academia': Smarkim Gym Academia
-4,3(254)
-Academia ·  · R. Voluntários da Pátria, 1884
-Aberto · Fecha 22:00
- 
-Serviços no local...
-2026-01-28 17:38:50 [DEBUG]   [19] Extraído: Smarkim Gym Academia
-2026-01-28 17:38:50 [DEBUG]   Texto do card 'BIO RITMO Academia | Pedro Doll': BIO RITMO Academia | Pedro Doll
-4,3(319)
-Academia ·  · R. Pedro Doll, 564
-Aberto · Fecha 23:00
- 
-Serviços no local...
-2026-01-28 17:38:50 [DEBUG]   [20] Extraído: BIO RITMO Academia | Pedro Doll
-2026-01-28 17:38:50 [DEBUG] Limite de 20 resultados atingido.
-2026-01-28 17:38:50 [INFO] Total extraído para 'academia': 20 estabelecimentos.
-2026-01-28 17:38:50 [INFO] Coleta de 'academia' concluída: 20 estabelecimentos encontrados.
-2026-01-28 17:38:50 [INFO] ----------------------------------------
-2026-01-28 17:38:50 [INFO] BUSCANDO: RESTAURANTE
-2026-01-28 17:38:50 [INFO] Termo de busca: 'restaurantes em São Paulo'
-2026-01-28 17:38:50 [INFO] ----------------------------------------
-2026-01-28 17:38:50 [INFO] Acessando Google Maps para busca: 'restaurantes em São Paulo'
-2026-01-28 17:38:51 [DEBUG] Campo de busca encontrado.
-2026-01-28 17:38:57 [INFO] Busca realizada: 'restaurantes em São Paulo'
-2026-01-28 17:38:58 [DEBUG] Feed de resultados carregado.
-2026-01-28 17:39:03 [DEBUG] Iniciando scroll no painel de resultados...
-2026-01-28 17:39:05 [DEBUG] Scroll 1/5 realizado.
-2026-01-28 17:39:07 [DEBUG] Scroll 2/5 realizado.
-2026-01-28 17:39:09 [DEBUG] Scroll 3/5 realizado.
-2026-01-28 17:39:11 [DEBUG] Scroll 4/5 realizado.
-2026-01-28 17:39:13 [DEBUG] Scroll 5/5 realizado.
-2026-01-28 17:39:13 [INFO] Scroll completo: 5 iterações realizadas.
-2026-01-28 17:39:13 [INFO] Encontrados 40 cards para 'restaurante'.
-2026-01-28 17:39:13 [DEBUG]   Texto do card 'Restaurante Dona Florinda': Restaurante Dona Florinda
-4,4(1.012) · $$$
-Portuguesa ·  · R. Antônio Pereira de Sousa, 227
-Restaurante português famil...
-2026-01-28 17:39:13 [DEBUG]   [1] Extraído: Restaurante Dona Florinda
-2026-01-28 17:39:13 [DEBUG]   Texto do card 'Angusteria': Angusteria
-4,7(443) · $$
-Restaurante · R. Duarte de Azevedo, 468
-Aberto · Fecha 22:00
- 
-Refeição no local
-·
-Retirada na ...
-2026-01-28 17:39:13 [DEBUG]   [2] Extraído: Angusteria
-2026-01-28 17:39:13 [DEBUG]   Texto do card 'Lassù': Lassù
-4,6(3.332) · +R$ 200
-Restaurante ·  · R. Conselheiro Saraiva, 207
-Bar giratório e especialidades da Itália
-Abre e...
-2026-01-28 17:39:13 [DEBUG]   [3] Extraído: Lassù
-2026-01-28 17:39:13 [DEBUG]   Texto do card 'Famiglia Mancini Trattoria': Famiglia Mancini Trattoria
-4,7(27.903) · $$$
-Italiana ·  · Rua Avanhandava, 81, Bela Vista
-Massas e frios em ambiente a...
-2026-01-28 17:39:13 [DEBUG]   [4] Extraído: Famiglia Mancini Trattoria
-2026-01-28 17:39:13 [DEBUG]   Texto do card 'La Mordida': La Mordida
-4,6(618)
-Argentina ·  · R. Prof. Lourival Gomes Machado, 274 - 272
-Aberto · Fecha 23:00
- 
-Refeição no local
-...
-2026-01-28 17:39:13 [DEBUG]   [5] Extraído: La Mordida
-2026-01-28 17:39:13 [DEBUG]   Texto do card 'Rainha da Jovita': Rainha da Jovita
-4,6(172) · R$ 20–40
-Restaurante · Rua Dr. Olavo Egídio, 449
-Aberto · Fecha 23:00
- 
-Refeição no local
-·
-...
-2026-01-28 17:39:13 [DEBUG]   [6] Extraído: Rainha da Jovita
-2026-01-28 17:39:13 [DEBUG]   Texto do card 'La Ficazza': La Ficazza
-4,9(730) · R$ 80–120
-Italiana ·  · R. Dr. César, 1160
-Aberto · Fecha 22:00
- 
-Refeição no local
-·
-Retirada na...
-2026-01-28 17:39:13 [DEBUG]   [7] Extraído: La Ficazza
-2026-01-28 17:39:14 [DEBUG]   Texto do card 'Sabor de Santana': Sabor de Santana
-4,6(194) · R$ 20–40
-Restaurante · R. Duarte de Azevedo, 352
-Aberto · Fecha 00:00
- 
-Refeição no local
-·
-...
-2026-01-28 17:39:14 [DEBUG]   [8] Extraído: Sabor de Santana
-2026-01-28 17:39:14 [DEBUG]   Texto do card 'LeLui Bar e Cozinha': LeLui Bar e Cozinha
-4,8(1.018) · $$
-Restaurante ·  · R. Jacuna, 302
-Aberto · Fecha 00:00
- 
-Refeição no local
-·
-Para via...
-2026-01-28 17:39:14 [DEBUG]   [9] Extraído: LeLui Bar e Cozinha
-2026-01-28 17:39:14 [DEBUG]   Texto do card 'Dom ramiro': Dom ramiro
-4,5(3.579) · $$
-Brasileira ·  · R. Dr. César, 105
-Gastropub aconchegante com música
-Aberto · Fecha 01:00
- 
-R...
-2026-01-28 17:39:14 [DEBUG]   [10] Extraído: Dom ramiro
-2026-01-28 17:39:14 [DEBUG]   Texto do card 'Restaurante Nova Zuquim (Alto de Santana)': Restaurante Nova Zuquim (Alto de Santana)
-4,3(114) · R$ 20–40
-Restaurante ·  · R. Dr. Zuquim, 1941
-Aberto · Fecha 21:00...
-2026-01-28 17:39:14 [DEBUG]   [11] Extraído: Restaurante Nova Zuquim (Alto de Santana)
-2026-01-28 17:39:14 [DEBUG]   Texto do card 'Salvi Café e Cozinha - Santana': Salvi Café e Cozinha - Santana
-4,6(1.216) · $$
-Restaurante ·  · R. Tupiguaes, 140
-Aberto · Fecha 22:00
- 
-Refeição no lo...
-2026-01-28 17:39:14 [DEBUG]   [12] Extraído: Salvi Café e Cozinha - Santana
-2026-01-28 17:39:14 [DEBUG]   Texto do card 'Pecorino Cucina Mediterranea Braz Leme: Restaurante, Delivery São Paulo SP': Pecorino Cucina Mediterranea Braz Leme: Restaurante, Delivery São Paulo SP
-4,6(1.549)
-Mediterrânea ·  · Av. Braz Leme, ...
-2026-01-28 17:39:14 [DEBUG]   [13] Extraído: Pecorino Cucina Mediterranea Braz Leme: Restaurante, Delivery São Paulo SP
-2026-01-28 17:39:14 [DEBUG]   Texto do card 'Santo Mar Restaurante — Unidade Santana': Santo Mar Restaurante — Unidade Santana
-4,4(3.898) · $$
-Frutos do mar ·  · Av. Luiz Dumont Villares, 1306
-Aberto · Fech...
-2026-01-28 17:39:14 [DEBUG]   [14] Extraído: Santo Mar Restaurante — Unidade Santana
-2026-01-28 17:39:14 [DEBUG]   Texto do card 'Una Rooftop Restaurante & Bar': Una Rooftop Restaurante & Bar
-4,2(363)
-Restaurante ·  · R. Prof. Lourival Gomes Machado, 273
-Aberto · Fecha 00:00
- 
-Ref...
-2026-01-28 17:39:14 [DEBUG]   [15] Extraído: Una Rooftop Restaurante & Bar
-2026-01-28 17:39:14 [DEBUG]   Texto do card 'Restaurante Fulô - Cozinha Regional': Restaurante Fulô - Cozinha Regional
-4,4(1.741) · $$
-Brasileira ·  · R. Lucas de Freitas de Azevedo, 87
-Aberto · Fecha 0...
-2026-01-28 17:39:14 [DEBUG]   [16] Extraído: Restaurante Fulô - Cozinha Regional
-2026-01-28 17:39:14 [DEBUG]   Texto do card 'Quintal Brasil': Quintal Brasil
-4,2(770) · $$
-Bar · R. Alfredo Pujol, 853
-Comida brasileira e muito samba
-Aberto · Fecha 00:00
- 
-Refeição...
-2026-01-28 17:39:14 [DEBUG]   [17] Extraído: Quintal Brasil
-2026-01-28 17:39:14 [DEBUG]   Texto do card 'La Braciera Pizzaria - Pizza Napoletana': La Braciera Pizzaria - Pizza Napoletana
-4,8(4.166) · $$
-Pizza ·  · R. Conselheiro Saraiva, 664
-Restaurante italiano des...
-2026-01-28 17:39:14 [DEBUG]   [18] Extraído: La Braciera Pizzaria - Pizza Napoletana
-2026-01-28 17:39:14 [DEBUG]   Texto do card 'Point Santana': Point Santana
-4,3(572) · R$ 20–60
-Restaurante ·  · R. Voluntários da Pátria, 3670
-Aberto · Fecha 00:00
- 
-Refeição no lo...
-2026-01-28 17:39:14 [DEBUG]   [19] Extraído: Point Santana
-2026-01-28 17:39:14 [DEBUG]   Texto do card 'Restaurante Coco Bambu Anhembi': Restaurante Coco Bambu Anhembi
-4,8(45.025) · $$$
-Frutos do mar ·  · Av. Braz Leme, 201
-Aberto · Fecha 00:00
- 
-Refeição ...
-2026-01-28 17:39:14 [DEBUG]   [20] Extraído: Restaurante Coco Bambu Anhembi
-2026-01-28 17:39:14 [DEBUG] Limite de 20 resultados atingido.
-2026-01-28 17:39:14 [INFO] Total extraído para 'restaurante': 20 estabelecimentos.
-2026-01-28 17:39:14 [INFO] Coleta de 'restaurante' concluída: 20 estabelecimentos encontrados.
-2026-01-28 17:39:14 [INFO] ----------------------------------------
-2026-01-28 17:39:14 [INFO] BUSCANDO: SORVETERIA
-2026-01-28 17:39:14 [INFO] Termo de busca: 'sorveterias em São Paulo'
-2026-01-28 17:39:14 [INFO] ----------------------------------------
-2026-01-28 17:39:14 [INFO] Acessando Google Maps para busca: 'sorveterias em São Paulo'
-2026-01-28 17:39:14 [DEBUG] Campo de busca encontrado.
-2026-01-28 17:39:20 [INFO] Busca realizada: 'sorveterias em São Paulo'
-2026-01-28 17:39:21 [DEBUG] Feed de resultados carregado.
-2026-01-28 17:39:26 [DEBUG] Iniciando scroll no painel de resultados...
-2026-01-28 17:39:28 [DEBUG] Scroll 1/5 realizado.
-2026-01-28 17:39:31 [DEBUG] Scroll 2/5 realizado.
-2026-01-28 17:39:33 [DEBUG] Scroll 3/5 realizado.
-2026-01-28 17:39:35 [DEBUG] Scroll 4/5 realizado.
-2026-01-28 17:39:37 [DEBUG] Scroll 5/5 realizado.
-2026-01-28 17:39:37 [INFO] Scroll completo: 5 iterações realizadas.
-2026-01-28 17:39:37 [INFO] Encontrados 40 cards para 'sorveteria'.
-2026-01-28 17:39:37 [DEBUG]   Texto do card 'Dezato Gelato - Augusto Tolle': Dezato Gelato - Augusto Tolle
-4,8(504) · $$
-Sorvete ·  · R. Augusto Tolle, 279
-Aberto · Fecha 20:00
- 
-Refeição no local...
-2026-01-28 17:39:37 [DEBUG]   [1] Extraído: Dezato Gelato - Augusto Tolle
-2026-01-28 17:39:37 [DEBUG]   Texto do card 'Paleteria paulista - unidade Santana': Paleteria paulista - unidade Santana
-4,8(99)
-Sorvete ·  · Rua Dr. Olavo Egídio, 798
-Aberto · Fecha 20:00
- 
-Retirada na ...
-2026-01-28 17:39:37 [DEBUG]   [2] Extraído: Paleteria paulista - unidade Santana
-2026-01-28 17:39:37 [DEBUG]   Texto do card 'Latte di Fiori': Latte di Fiori
-4,8(416)
-Sorvete · Av. Águas de São Pedro, 427
-Aberto · Fecha 20:00
  
 Entrega...
-2026-01-28 17:39:37 [DEBUG]   [3] Extraído: Latte di Fiori
-2026-01-28 17:39:37 [DEBUG]   Texto do card 'Sou ice - Sorvetes e Congelados': Sou ice - Sorvetes e Congelados
+2026-01-28 19:47:26 [DEBUG]   [15] Extraído: Belari Gelato Artesanal - Bairro do Limão
+2026-01-28 19:47:26 [DEBUG]   Texto do card 'Sou ice - Sorvetes e Congelados': Sou ice - Sorvetes e Congelados
 4,6(69) · $
 Sorvete · Av. Nova Cantareira, 346
-Aberto · Fecha 19:15
+Fechado · Abre qui. às 11:00
  
-Compras na loja
-·
-...
-2026-01-28 17:39:37 [DEBUG]   [4] Extraído: Sou ice - Sorvetes e Congelados
-2026-01-28 17:39:37 [DEBUG]   Texto do card 'Sorvetes Rochinha Santana': Sorvetes Rochinha Santana
-4,6(304) · $$
-Sorvete ·  · R. Dom Henrique Mourão, 216
+Compras na...
+2026-01-28 19:47:26 [DEBUG]   [16] Extraído: Sou ice - Sorvetes e Congelados
+2026-01-28 19:47:26 [DEBUG]   Texto do card 'Borelli center norte': Borelli center norte
+4,8(96)
+Sorvete ·  · Shopping Center Norte
+Aberto · Fecha 22:00...
+2026-01-28 19:47:26 [DEBUG]   [17] Extraído: Borelli center norte
+2026-01-28 19:47:26 [DEBUG]   Texto do card 'Italian Dessert': Italian Dessert
+4,5(155) · $$
+Sorvete · Rua Dr. Rubens Meireles, 327
 Aberto · Fecha 21:00
  
-Retirada na loj...
-2026-01-28 17:39:37 [DEBUG]   [5] Extraído: Sorvetes Rochinha Santana
-2026-01-28 17:39:37 [DEBUG]   Texto do card 'Gelato Borelli Santana': Gelato Borelli Santana
-4,5(431)
-Sorvete ·  · R. Tupiguaes, 48 - Loja 02
-Aberto · Fecha 23:00
- 
-Compras na loja
-·
-Retira...
-2026-01-28 17:39:37 [DEBUG]   [6] Extraído: Gelato Borelli Santana
-2026-01-28 17:39:37 [DEBUG]   Texto do card 'Bacio di Latte - Augusto Tolle': Bacio di Latte - Augusto Tolle
-4,4(143)
-Sorvete ·  · R. Augusto Tolle, 619
-Aberto · Fecha 22:00
- 
 Retirada na loja
- 
-
-...
-2026-01-28 17:39:37 [DEBUG]   [7] Extraído: Bacio di Latte - Augusto Tolle
-2026-01-28 17:39:37 [DEBUG]   Texto do card 'Lambisk Sorvetes': Lambisk Sorvetes
-4,7(192) · $
-Sorvete ·  · Rua : Conselheiro Moreira de Barros, 1002
-Aberto · Fecha 20:00
+·
+Entrega
+ ...
+2026-01-28 19:47:26 [DEBUG]   [18] Extraído: Italian Dessert
+2026-01-28 19:47:26 [DEBUG]   Texto do card 'Frutiquello Sorvetes Vila Guilherme': Frutiquello Sorvetes Vila Guilherme
+4,5(909) · $
+Sorvete · Praça Oscár da Silva, 21
+Aberto · Fecha 22:00
  
 Entrega...
-2026-01-28 17:39:37 [DEBUG]   [8] Extraído: Lambisk Sorvetes
-2026-01-28 17:39:37 [DEBUG]   Texto do card 'Frida & Mina Sorveteria': Frida & Mina Sorveteria
-4,6(6.987) · $$
-Sorvete · R. Artur de Azevedo, 1147
-Produtos naturais em ambiente agradável
-Aber...
-2026-01-28 17:39:37 [DEBUG]   [9] Extraído: Frida & Mina Sorveteria
-2026-01-28 17:39:37 [DEBUG]   Texto do card 'OGGI SORVETES PARADA INGLESA': OGGI SORVETES PARADA INGLESA
-4,6(378) · $
-Sorvete ·  · Av. Gen. Ataliba Leonel, 1976
-Aberto · Fecha 19:00
- 
-Sem refeiçã...
-2026-01-28 17:39:37 [DEBUG]   [10] Extraído: OGGI SORVETES PARADA INGLESA
-2026-01-28 17:39:37 [DEBUG]   Texto do card 'Dezato Gelato - Braz Leme': Dezato Gelato - Braz Leme
-4,8(260)
-Sorvete ·  · Av. Braz Leme, 1200 - Loja 06
-Aberto · Fecha 22:00
- 
-Compras na loja
-·
-...
-2026-01-28 17:39:37 [DEBUG]   [11] Extraído: Dezato Gelato - Braz Leme
-2026-01-28 17:39:37 [DEBUG]   Texto do card 'Sorveteria do Centro': Sorveteria do Centro
-4,4(2.875) · $$
-Sorvete · R. Epitácio Pessoa, 94
-Sorveteria com atmosfera boêmia
-Aberto · Fecha 22:...
-2026-01-28 17:39:37 [DEBUG]   [12] Extraído: Sorveteria do Centro
-2026-01-28 17:39:37 [DEBUG]   Texto do card 'The Best Açaí - Água Fria': The Best Açaí - Água Fria
-4,7(31)
-Sorvete ·  · Av. Nova Cantareira, 335
-Aberto · Fecha 20:00
- 
-Compras na loja
-·
-Retira...
-2026-01-28 17:39:37 [DEBUG]   [13] Extraído: The Best Açaí - Água Fria
-2026-01-28 17:39:37 [DEBUG]   Texto do card 'Candy Village Sorvete Infancia vintage': Candy Village Sorvete Infancia vintage
+2026-01-28 19:47:26 [DEBUG]   [19] Extraído: Frutiquello Sorvetes Vila Guilherme
+2026-01-28 19:47:26 [DEBUG]   Texto do card 'Candy Village Sorvete Infancia vintage': Candy Village Sorvete Infancia vintage
 4,9(33)
 Sorvete · R. Jovita
-Fecha em breve · 18:00 · Abre qui. às 08:00...
-2026-01-28 17:39:37 [DEBUG]   [14] Extraído: Candy Village Sorvete Infancia vintage
-2026-01-28 17:39:37 [DEBUG]   Texto do card 'Sorveteria Lafer & Açaí': Sorveteria Lafer & Açaí
-4,6(982) · $
-Sorvete ·  · R. Maria Curupaiti, 1520
-Sorvetes e açaí em atmosfera relaxada
-Aberto...
-2026-01-28 17:39:37 [DEBUG]   [15] Extraído: Sorveteria Lafer & Açaí
-2026-01-28 17:39:37 [DEBUG]   Texto do card 'Sou Ice Santa Teresinha - Sorvetes e Congelados': Sou Ice Santa Teresinha - Sorvetes e Congelados
-4,8(49)
-Sorvete ·  · R. Conselheiro Moreira de Barros, 1309 - Loja 01
-A...
-2026-01-28 17:39:37 [DEBUG]   [16] Extraído: Sou Ice Santa Teresinha - Sorvetes e Congelados
-2026-01-28 17:39:37 [DEBUG]   Texto do card 'Bacio di Latte Gelato Puro': Bacio di Latte Gelato Puro
-4,4(1.593) · $$$
-Sorvete ·  · Av. Braz Leme, 2378
-Aberto · Fecha 22:00
- 
-Refeição no local
-·...
-2026-01-28 17:39:37 [DEBUG]   [17] Extraído: Bacio di Latte Gelato Puro
-2026-01-28 17:39:37 [DEBUG]   Texto do card 'Paraiso dos Sorvetes': Paraiso dos Sorvetes
-4,7(135) · $
-Sorvete · Av. Conceição, 898
-Aberto · Fecha 19:00
- 
-Retirada na loja...
-2026-01-28 17:39:37 [DEBUG]   [18] Extraído: Paraiso dos Sorvetes
-2026-01-28 17:39:37 [DEBUG]   Texto do card 'Sorvete Vintage - Sorvete para eventos | Açaí e Milkshake': Sorvete Vintage - Sorvete para eventos | Açaí e Milkshake
-4,9(87)
-Sorvete · Av. Gen. Ataliba Leonel, 3837
-Aberto · Fecha...
-2026-01-28 17:39:37 [DEBUG]   [19] Extraído: Sorvete Vintage - Sorvete para eventos | Açaí e Milkshake
-2026-01-28 17:39:37 [DEBUG]   Texto do card 'Bacio di Latte': Bacio di Latte
-4,5(807) · $$$
-Sorvete ·  · Tv. Casalbuono, 120
-Aberto · Fecha 22:00
- 
-Refeição no local
-·
-Para viagem
-·...
-2026-01-28 17:39:37 [DEBUG]   [20] Extraído: Bacio di Latte
-2026-01-28 17:39:37 [DEBUG] Limite de 20 resultados atingido.
-2026-01-28 17:39:37 [INFO] Total extraído para 'sorveteria': 20 estabelecimentos.
-2026-01-28 17:39:37 [INFO] Coleta de 'sorveteria' concluída: 20 estabelecimentos encontrados.
-2026-01-28 17:39:37 [INFO] ============================================================
-2026-01-28 17:39:37 [INFO] TOTAL de estabelecimentos coletados: 60
-2026-01-28 17:39:37 [INFO] Salvando resultados em JSON...
-2026-01-28 17:39:37 [INFO] Arquivo JSON salvo com sucesso: c:\Users\bruno.su\Desktop\rpa-google-maps\resultados.json
-2026-01-28 17:39:37 [INFO] Gerando planilha Excel...
-2026-01-28 17:39:37 [INFO] Planilha Excel salva com sucesso: c:\Users\bruno.su\Desktop\rpa-google-maps\resultados.xlsx
-2026-01-28 17:39:40 [INFO] Navegador fechado com sucesso.
-2026-01-28 17:39:40 [INFO] ============================================================
-2026-01-28 17:39:40 [INFO] AUTOMAÇÃO FINALIZADA — Tempo total: 75.7s
-2026-01-28 17:39:40 [INFO] Resultados: 60 estabelecimentos
-2026-01-28 17:39:40 [INFO] Arquivos gerados: c:\Users\bruno.su\Desktop\rpa-google-maps\resultados.json
-2026-01-28 17:39:40 [INFO]                   c:\Users\bruno.su\Desktop\rpa-google-maps\resultados.xlsx
-2026-01-28 17:39:40 [INFO] Log completo:     c:\Users\bruno.su\Desktop\rpa-google-maps\automation.log
-2026-01-28 17:39:40 [INFO] ============================================================
+Fechado · Abre qui. às 08:00...
+2026-01-28 19:47:26 [DEBUG]   [20] Extraído: Candy Village Sorvete Infancia vintage
+2026-01-28 19:47:26 [DEBUG] Limite de 20 resultados atingido.
+2026-01-28 19:47:26 [INFO] Total extraído para 'sorveteria': 20 estabelecimentos.
+2026-01-28 19:47:26 [INFO] Coleta de 'sorveteria' concluída: 20 estabelecimentos encontrados.
+2026-01-28 19:47:26 [INFO] ============================================================
+2026-01-28 19:47:26 [INFO] TOTAL de estabelecimentos coletados: 60
+2026-01-28 19:47:26 [INFO] Salvando resultados em JSON...
+2026-01-28 19:47:26 [INFO] Arquivo JSON salvo com sucesso: c:\Users\bruno.su\Desktop\rpa-google-maps\resultados.json
+2026-01-28 19:47:26 [INFO] Gerando planilha Excel...
+2026-01-28 19:47:26 [INFO] Planilha Excel salva com sucesso: c:\Users\bruno.su\Desktop\rpa-google-maps\resultados.xlsx
+2026-01-28 19:47:30 [INFO] Navegador fechado com sucesso.
+2026-01-28 19:47:30 [INFO] ============================================================
+2026-01-28 19:47:30 [INFO] AUTOMAÇÃO FINALIZADA — Tempo total: 76.8s
+2026-01-28 19:47:30 [INFO] Resultados: 60 estabelecimentos
+2026-01-28 19:47:30 [INFO] Arquivos gerados: c:\Users\bruno.su\Desktop\rpa-google-maps\resultados.json
+2026-01-28 19:47:30 [INFO]                   c:\Users\bruno.su\Desktop\rpa-google-maps\resultados.xlsx
+2026-01-28 19:47:30 [INFO] Log completo:     c:\Users\bruno.su\Desktop\rpa-google-maps\automation.log
+2026-01-28 19:47:30 [INFO] ============================================================

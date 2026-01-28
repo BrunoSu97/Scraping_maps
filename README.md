@@ -30,7 +30,7 @@ rpa-google-maps/
 ### 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/BrunoSu97/rpa-google-maps.git
+git clone https://github.com/BrunoSu97/Scraping_maps.git
 cd rpa-google-maps
 ```
 

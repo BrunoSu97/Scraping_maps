@@ -1,17 +1,17 @@
 [
     {
+        "nome": "Academia Motion Fit - Limoeiro",
+        "tipo": "academia",
+        "nota": "3,9",
+        "avaliacoes": "154",
+        "endereco": "Av. Augusto Antunes, 546"
+    },
+    {
         "nome": "BIO RITMO Academia | Pedro Doll",
         "tipo": "academia",
         "nota": "4,3",
         "avaliacoes": "319",
-        "endereco": "Rua Pedro Doll, 564"
-    },
-    {
-        "nome": "30'fit - Treinamento Funcional",
-        "tipo": "academia",
-        "nota": "5,0",
-        "avaliacoes": "151",
-        "endereco": "Rua Francisca Júlia, 524"
+        "endereco": "R. Pedro Doll, 564"
     },
     {
         "nome": "K1 GYM SANTANA",
@@ -42,13 +42,6 @@
         "endereco": "R. Voluntários da Pátria, 2468 - Conjunto 167"
     },
     {
-        "nome": "Tracer Parkour - Santana",
-        "tipo": "academia",
-        "nota": "4,8",
-        "avaliacoes": "52",
-        "endereco": "R. Dr. Zuquim, 859"
-    },
-    {
         "nome": "Silver | Fitness & Spa | Santana - Zona Norte - SP",
         "tipo": "academia",
         "nota": "4,8",
@@ -63,18 +56,18 @@
         "endereco": "R. Conselheiro Moreira de Barros, 221"
     },
     {
+        "nome": "Tracer Parkour - Santana",
+        "tipo": "academia",
+        "nota": "4,8",
+        "avaliacoes": "52",
+        "endereco": "R. Dr. Zuquim, 859"
+    },
+    {
         "nome": "Academia C4 GYM - Unid. Santana",
         "tipo": "academia",
         "nota": "3,9",
         "avaliacoes": "156",
-        "endereco": "Rua Dr. Olavo Egídio, 632"
-    },
-    {
-        "nome": "Studio JD Treinos Coletivos",
-        "tipo": "academia",
-        "nota": "4,6",
-        "avaliacoes": "18",
-        "endereco": "Rua Benvinda Aparecida de Abreu Leme, 43 - Sala 3"
+        "endereco": "R. Dr. Olavo Egídio, 632"
     },
     {
         "nome": "Academia Acqua Ville",
@@ -87,7 +80,7 @@
         "nome": "30'fit - Treinamento Funcional",
         "tipo": "academia",
         "nota": "5,0",
-        "avaliacoes": "151",
+        "avaliacoes": "152",
         "endereco": "R. Francisca Júlia, 524"
     },
     {
@@ -95,7 +88,7 @@
         "tipo": "academia",
         "nota": "4,7",
         "avaliacoes": "510",
-        "endereco": "Rua Chemin Del Pra, 58"
+        "endereco": "R. Chemin Del Pra, 58"
     },
     {
         "nome": "Studio Livinng",
@@ -133,11 +126,25 @@
         "endereco": "R. Voluntários da Pátria, 1884"
     },
     {
+        "nome": "Studio JD Treinos Coletivos",
+        "tipo": "academia",
+        "nota": "4,6",
+        "avaliacoes": "19",
+        "endereco": "R. Benvinda Aparecida de Abreu Leme, 43 - Sala 3"
+    },
+    {
         "nome": "BIO RITMO Academia | Pedro Doll",
         "tipo": "academia",
         "nota": "4,3",
         "avaliacoes": "319",
         "endereco": "R. Pedro Doll, 564"
+    },
+    {
+        "nome": "Lassù",
+        "tipo": "restaurante",
+        "nota": "4,6",
+        "avaliacoes": "3.332",
+        "endereco": "R. Conselheiro Saraiva, 207"
     },
     {
         "nome": "Restaurante Dona Florinda",
@@ -154,32 +161,39 @@
         "endereco": "R. Duarte de Azevedo, 468"
     },
     {
-        "nome": "Lassù",
+        "nome": "La Braciera Pizzaria - Pizza Napoletana",
         "tipo": "restaurante",
-        "nota": "4,6",
-        "avaliacoes": "3.332",
-        "endereco": "R. Conselheiro Saraiva, 207"
+        "nota": "4,8",
+        "avaliacoes": "4.166",
+        "endereco": "R. Conselheiro Saraiva, 664"
+    },
+    {
+        "nome": "La Crosta Forneria",
+        "tipo": "restaurante",
+        "nota": "4,9",
+        "avaliacoes": "1.464",
+        "endereco": "R. Pontins, 52"
     },
     {
         "nome": "Famiglia Mancini Trattoria",
         "tipo": "restaurante",
         "nota": "4,7",
-        "avaliacoes": "27.903",
-        "endereco": "Rua Avanhandava, 81, Bela Vista"
+        "avaliacoes": "27.906",
+        "endereco": "R. Avanhandava, 81, Bela Vista"
     },
     {
-        "nome": "La Mordida",
+        "nome": "Sargento Garcia",
         "tipo": "restaurante",
-        "nota": "4,6",
-        "avaliacoes": "618",
-        "endereco": "R. Prof. Lourival Gomes Machado, 274 - 272"
+        "nota": "4,7",
+        "avaliacoes": "886",
+        "endereco": "R. Padre Luciano, 154"
     },
     {
         "nome": "Rainha da Jovita",
         "tipo": "restaurante",
         "nota": "4,6",
         "avaliacoes": "172",
-        "endereco": "Rua Dr. Olavo Egídio, 449"
+        "endereco": "R. Dr. Olavo Egídio, 449"
     },
     {
         "nome": "La Ficazza",
@@ -189,6 +203,13 @@
         "endereco": "R. Dr. César, 1160"
     },
     {
+        "nome": "Seu Manuel Restaurante",
+        "tipo": "restaurante",
+        "nota": "4,8",
+        "avaliacoes": "519",
+        "endereco": "R. Ismael Neri, 441"
+    },
+    {
         "nome": "Sabor de Santana",
         "tipo": "restaurante",
         "nota": "4,6",
@@ -196,18 +217,18 @@
         "endereco": "R. Duarte de Azevedo, 352"
     },
     {
-        "nome": "LeLui Bar e Cozinha",
-        "tipo": "restaurante",
-        "nota": "4,8",
-        "avaliacoes": "1.018",
-        "endereco": "R. Jacuna, 302"
-    },
-    {
-        "nome": "Dom ramiro",
+        "nome": "Dona Carmela",
         "tipo": "restaurante",
         "nota": "4,5",
-        "avaliacoes": "3.579",
-        "endereco": "R. Dr. César, 105"
+        "avaliacoes": "3.595",
+        "endereco": "R. Dr. César, 944"
+    },
+    {
+        "nome": "Crostini Osteria",
+        "tipo": "restaurante",
+        "nota": "4,8",
+        "avaliacoes": "410",
+        "endereco": "R. Dr. César, 1243"
     },
     {
         "nome": "Restaurante Nova Zuquim (Alto de Santana)",
@@ -224,11 +245,18 @@
         "endereco": "R. Tupiguaes, 140"
     },
     {
-        "nome": "Pecorino Cucina Mediterranea Braz Leme: Restaurante, Delivery São Paulo SP",
+        "nome": "LeLui Bar e Cozinha",
         "tipo": "restaurante",
-        "nota": "4,6",
-        "avaliacoes": "1.549",
-        "endereco": "Av. Braz Leme, 1200"
+        "nota": "4,8",
+        "avaliacoes": "1.018",
+        "endereco": "R. Jacuna, 302"
+    },
+    {
+        "nome": "Aoka Parrilla e Bar",
+        "tipo": "restaurante",
+        "nota": "4,8",
+        "avaliacoes": "238",
+        "endereco": "Av. Leôncio de Magalhães, 84"
     },
     {
         "nome": "Santo Mar Restaurante — Unidade Santana",
@@ -238,46 +266,18 @@
         "endereco": "Av. Luiz Dumont Villares, 1306"
     },
     {
-        "nome": "Una Rooftop Restaurante & Bar",
+        "nome": "Dom ramiro",
         "tipo": "restaurante",
-        "nota": "4,2",
-        "avaliacoes": "363",
-        "endereco": "R. Prof. Lourival Gomes Machado, 273"
+        "nota": "4,5",
+        "avaliacoes": "3.579",
+        "endereco": "R. Dr. César, 105"
     },
     {
-        "nome": "Restaurante Fulô - Cozinha Regional",
+        "nome": "Pecorino Cucina Mediterranea Braz Leme: Restaurante, Delivery São Paulo SP",
         "tipo": "restaurante",
-        "nota": "4,4",
-        "avaliacoes": "1.741",
-        "endereco": "R. Lucas de Freitas de Azevedo, 87"
-    },
-    {
-        "nome": "Quintal Brasil",
-        "tipo": "restaurante",
-        "nota": "4,2",
-        "avaliacoes": "770",
-        "endereco": "R. Alfredo Pujol, 853"
-    },
-    {
-        "nome": "La Braciera Pizzaria - Pizza Napoletana",
-        "tipo": "restaurante",
-        "nota": "4,8",
-        "avaliacoes": "4.166",
-        "endereco": "R. Conselheiro Saraiva, 664"
-    },
-    {
-        "nome": "Point Santana",
-        "tipo": "restaurante",
-        "nota": "4,3",
-        "avaliacoes": "572",
-        "endereco": "R. Voluntários da Pátria, 3670"
-    },
-    {
-        "nome": "Restaurante Coco Bambu Anhembi",
-        "tipo": "restaurante",
-        "nota": "4,8",
-        "avaliacoes": "45.025",
-        "endereco": "Av. Braz Leme, 201"
+        "nota": "4,6",
+        "avaliacoes": "1.549",
+        "endereco": "Av. Braz Leme, 1200"
     },
     {
         "nome": "Dezato Gelato - Augusto Tolle",
@@ -287,13 +287,6 @@
         "endereco": "R. Augusto Tolle, 279"
     },
     {
-        "nome": "Paleteria paulista - unidade Santana",
-        "tipo": "sorveteria",
-        "nota": "4,8",
-        "avaliacoes": "99",
-        "endereco": "Rua Dr. Olavo Egídio, 798"
-    },
-    {
         "nome": "Latte di Fiori",
         "tipo": "sorveteria",
         "nota": "4,8",
@@ -301,11 +294,11 @@
         "endereco": "Av. Águas de São Pedro, 427"
     },
     {
-        "nome": "Sou ice - Sorvetes e Congelados",
+        "nome": "Paleteria paulista - unidade Santana",
         "tipo": "sorveteria",
-        "nota": "4,6",
-        "avaliacoes": "69",
-        "endereco": "Av. Nova Cantareira, 346"
+        "nota": "4,8",
+        "avaliacoes": "99",
+        "endereco": "R. Dr. Olavo Egídio, 798"
     },
     {
         "nome": "Sorvetes Rochinha Santana",
@@ -329,25 +322,11 @@
         "endereco": "R. Augusto Tolle, 619"
     },
     {
-        "nome": "Lambisk Sorvetes",
-        "tipo": "sorveteria",
-        "nota": "4,7",
-        "avaliacoes": "192",
-        "endereco": "Rua Conselheiro Moreira de Barros, 1002"
-    },
-    {
         "nome": "Frida & Mina Sorveteria",
         "tipo": "sorveteria",
         "nota": "4,6",
         "avaliacoes": "6.987",
         "endereco": "R. Artur de Azevedo, 1147"
-    },
-    {
-        "nome": "OGGI SORVETES PARADA INGLESA",
-        "tipo": "sorveteria",
-        "nota": "4,6",
-        "avaliacoes": "378",
-        "endereco": "Av. Gen. Ataliba Leonel, 1976"
     },
     {
         "nome": "Dezato Gelato - Braz Leme",
@@ -357,27 +336,6 @@
         "endereco": "Av. Braz Leme, 1200 - Loja 06"
     },
     {
-        "nome": "Sorveteria do Centro",
-        "tipo": "sorveteria",
-        "nota": "4,4",
-        "avaliacoes": "2.875",
-        "endereco": "R. Epitácio Pessoa, 94"
-    },
-    {
-        "nome": "The Best Açaí - Água Fria",
-        "tipo": "sorveteria",
-        "nota": "4,7",
-        "avaliacoes": "31",
-        "endereco": "Av. Nova Cantareira, 335"
-    },
-    {
-        "nome": "Candy Village Sorvete Infancia vintage",
-        "tipo": "sorveteria",
-        "nota": "4,9",
-        "avaliacoes": "33",
-        "endereco": "R. Jovita"
-    },
-    {
         "nome": "Sorveteria Lafer & Açaí",
         "tipo": "sorveteria",
         "nota": "4,6",
@@ -385,11 +343,11 @@
         "endereco": "R. Maria Curupaiti, 1520"
     },
     {
-        "nome": "Sou Ice Santa Teresinha - Sorvetes e Congelados",
+        "nome": "Sorveteria do Centro",
         "tipo": "sorveteria",
-        "nota": "4,8",
-        "avaliacoes": "49",
-        "endereco": "R. Conselheiro Moreira de Barros, 1309 - Loja 01"
+        "nota": "4,4",
+        "avaliacoes": "2.875",
+        "endereco": "R. Epitácio Pessoa, 94"
     },
     {
         "nome": "Bacio di Latte Gelato Puro",
@@ -399,24 +357,66 @@
         "endereco": "Av. Braz Leme, 2378"
     },
     {
-        "nome": "Paraiso dos Sorvetes",
+        "nome": "Lambisk Sorvetes",
         "tipo": "sorveteria",
         "nota": "4,7",
-        "avaliacoes": "135",
-        "endereco": "Av. Conceição, 898"
+        "avaliacoes": "192",
+        "endereco": "R. Conselheiro Moreira de Barros, 1002"
     },
     {
-        "nome": "Sorvete Vintage - Sorvete para eventos | Açaí e Milkshake",
+        "nome": "The Best Açaí - Água Fria",
         "tipo": "sorveteria",
-        "nota": "4,9",
-        "avaliacoes": "87",
-        "endereco": "Av. Gen. Ataliba Leonel, 3837"
+        "nota": "4,7",
+        "avaliacoes": "31",
+        "endereco": "Av. Nova Cantareira, 335"
     },
     {
         "nome": "Bacio di Latte",
         "tipo": "sorveteria",
         "nota": "4,5",
-        "avaliacoes": "807",
+        "avaliacoes": "808",
         "endereco": "Tv. Casalbuono, 120"
+    },
+    {
+        "nome": "Belari Gelato Artesanal - Bairro do Limão",
+        "tipo": "sorveteria",
+        "nota": "4,9",
+        "avaliacoes": "2.167",
+        "endereco": "Av. Casa Verde, 3527"
+    },
+    {
+        "nome": "Sou ice - Sorvetes e Congelados",
+        "tipo": "sorveteria",
+        "nota": "4,6",
+        "avaliacoes": "69",
+        "endereco": "Av. Nova Cantareira, 346"
+    },
+    {
+        "nome": "Borelli center norte",
+        "tipo": "sorveteria",
+        "nota": "4,8",
+        "avaliacoes": "96",
+        "endereco": "Shopping Center Norte"
+    },
+    {
+        "nome": "Italian Dessert",
+        "tipo": "sorveteria",
+        "nota": "4,5",
+        "avaliacoes": "155",
+        "endereco": "R. Dr. Rubens Meireles, 327"
+    },
+    {
+        "nome": "Frutiquello Sorvetes Vila Guilherme",
+        "tipo": "sorveteria",
+        "nota": "4,5",
+        "avaliacoes": "909",
+        "endereco": "Pç. Oscár da Silva, 21"
+    },
+    {
+        "nome": "Candy Village Sorvete Infancia vintage",
+        "tipo": "sorveteria",
+        "nota": "4,9",
+        "avaliacoes": "33",
+        "endereco": "R. Jovita"
     }
 ]
