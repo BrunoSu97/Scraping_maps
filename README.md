@@ -1,4 +1,4 @@
-# Automação RPA - Google Maps
+# Automação RPA - Google Maps - Scraping
 
 Automação em Python que acessa o Google Maps e coleta informações de estabelecimentos (academias, restaurantes e sorveterias), gerando relatórios em JSON e Excel.
 
