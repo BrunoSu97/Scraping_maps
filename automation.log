@@ -1,0 +1,320 @@
+2026-01-28 16:18:58 [INFO] ============================================================
+2026-01-28 16:18:58 [INFO] INÍCIO DA AUTOMAÇÃO RPA - GOOGLE MAPS
+2026-01-28 16:18:58 [INFO] Cidade alvo: São Paulo
+2026-01-28 16:18:58 [INFO] Tipos de estabelecimento: ['academia', 'restaurante', 'sorveteria']
+2026-01-28 16:18:58 [INFO] Máximo por tipo: 20
+2026-01-28 16:18:58 [INFO] ============================================================
+2026-01-28 16:18:58 [INFO] Inicializando o Chrome WebDriver...
+2026-01-28 16:18:58 [DEBUG] Modo visível ativado (com interface gráfica).
+2026-01-28 16:19:03 [CRITICAL] Falha crítica na automação: [WinError 193] %1 não é um aplicativo Win32 válido
+2026-01-28 16:19:03 [INFO] ============================================================
+2026-01-28 16:19:03 [INFO] AUTOMAÇÃO FINALIZADA — Tempo total: 4.9s
+2026-01-28 16:19:03 [INFO] Resultados: 0 estabelecimentos
+2026-01-28 16:19:03 [INFO] Arquivos gerados: c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\resultados.json
+2026-01-28 16:19:03 [INFO]                   c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\resultados.xlsx
+2026-01-28 16:19:03 [INFO] Log completo:     c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\automation.log
+2026-01-28 16:19:03 [INFO] ============================================================
+2026-01-28 16:20:10 [INFO] ============================================================
+2026-01-28 16:20:10 [INFO] INÍCIO DA AUTOMAÇÃO RPA - GOOGLE MAPS
+2026-01-28 16:20:10 [INFO] Cidade alvo: São Paulo
+2026-01-28 16:20:10 [INFO] Tipos de estabelecimento: ['academia', 'restaurante', 'sorveteria']
+2026-01-28 16:20:10 [INFO] Máximo por tipo: 20
+2026-01-28 16:20:10 [INFO] ============================================================
+2026-01-28 16:20:10 [INFO] Inicializando o Chrome WebDriver...
+2026-01-28 16:20:10 [DEBUG] Modo visível ativado (com interface gráfica).
+2026-01-28 16:20:12 [INFO] ============================================================
+2026-01-28 16:20:12 [INFO] INÍCIO DA AUTOMAÇÃO RPA - GOOGLE MAPS
+2026-01-28 16:20:12 [INFO] Cidade alvo: São Paulo
+2026-01-28 16:20:12 [INFO] Tipos de estabelecimento: ['academia', 'restaurante', 'sorveteria']
+2026-01-28 16:20:12 [INFO] Máximo por tipo: 20
+2026-01-28 16:20:12 [INFO] ============================================================
+2026-01-28 16:20:12 [INFO] Inicializando o Chrome WebDriver...
+2026-01-28 16:20:12 [DEBUG] Modo visível ativado (com interface gráfica).
+2026-01-28 16:20:13 [CRITICAL] Falha crítica na automação: [WinError 193] %1 não é um aplicativo Win32 válido
+2026-01-28 16:20:13 [INFO] ============================================================
+2026-01-28 16:20:13 [INFO] AUTOMAÇÃO FINALIZADA — Tempo total: 1.8s
+2026-01-28 16:20:13 [INFO] Resultados: 0 estabelecimentos
+2026-01-28 16:20:13 [INFO] Arquivos gerados: c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\resultados.json
+2026-01-28 16:20:13 [INFO]                   c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\resultados.xlsx
+2026-01-28 16:20:13 [INFO] Log completo:     c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\automation.log
+2026-01-28 16:20:13 [INFO] ============================================================
+2026-01-28 16:28:42 [INFO] ============================================================
+2026-01-28 16:28:42 [INFO] INÍCIO DA AUTOMAÇÃO RPA - GOOGLE MAPS
+2026-01-28 16:28:42 [INFO] Cidade alvo: São Paulo
+2026-01-28 16:28:42 [INFO] Tipos de estabelecimento: ['academia', 'restaurante', 'sorveteria']
+2026-01-28 16:28:42 [INFO] Máximo por tipo: 20
+2026-01-28 16:28:42 [INFO] ============================================================
+2026-01-28 16:28:42 [INFO] Inicializando o Chrome WebDriver...
+2026-01-28 16:28:42 [DEBUG] Modo visível ativado (com interface gráfica).
+2026-01-28 16:28:47 [INFO] Chrome WebDriver inicializado com sucesso.
+2026-01-28 16:28:47 [INFO] ----------------------------------------
+2026-01-28 16:28:47 [INFO] BUSCANDO: ACADEMIA
+2026-01-28 16:28:47 [INFO] Termo de busca: 'academias em São Paulo'
+2026-01-28 16:28:47 [INFO] ----------------------------------------
+2026-01-28 16:28:47 [INFO] Acessando Google Maps para busca: 'academias em São Paulo'
+2026-01-28 16:28:49 [DEBUG] Campo de busca encontrado.
+2026-01-28 16:28:49 [INFO] Busca realizada: 'academias em São Paulo'
+2026-01-28 16:28:50 [DEBUG] Feed de resultados carregado com sucesso.
+2026-01-28 16:28:52 [DEBUG] Iniciando scroll no painel de resultados...
+2026-01-28 16:28:54 [DEBUG] Scroll 1/5 realizado.
+2026-01-28 16:28:56 [DEBUG] Scroll 2/5 realizado.
+2026-01-28 16:28:58 [DEBUG] Scroll 3/5 realizado.
+2026-01-28 16:29:00 [DEBUG] Scroll 4/5 realizado.
+2026-01-28 16:29:02 [DEBUG] Scroll 5/5 realizado.
+2026-01-28 16:29:02 [INFO] Scroll completo: 5 iterações realizadas.
+2026-01-28 16:29:02 [INFO] Encontrados 36 resultados para 'academia'.
+2026-01-28 16:29:03 [DEBUG]   [1] Extraído: BIO RITMO Academia | Pedro Doll
+2026-01-28 16:29:03 [DEBUG]   [2] Extraído: 30'fit - Treinamento Funcional
+2026-01-28 16:29:03 [DEBUG]   [3] Extraído: K1 GYM SANTANA
+2026-01-28 16:29:03 [DEBUG]   [4] Extraído: BlueFit Santana
+2026-01-28 16:29:04 [DEBUG]   [5] Extraído: Black Fitness Club
+2026-01-28 16:29:04 [DEBUG]   [6] Extraído: Tracer Parkour - Santana
+2026-01-28 16:29:04 [DEBUG]   [7] Extraído: Health Academy
+2026-01-28 16:29:04 [DEBUG]   [8] Extraído: Academia Butterfly
+2026-01-28 16:29:05 [DEBUG]   [9] Extraído: Silver | Fitness & Spa | Santana - Zona Norte - SP
+2026-01-28 16:29:05 [DEBUG]   [10] Extraído: Academia C4 GYM - Unid. Santana
+2026-01-28 16:29:05 [DEBUG]   [11] Extraído: Studio JD Treinos Coletivos
+2026-01-28 16:29:05 [DEBUG]   [12] Extraído: Academia Acqua Ville
+2026-01-28 16:29:06 [DEBUG]   [13] Extraído: 30'fit - Treinamento Funcional
+2026-01-28 16:29:06 [DEBUG]   [14] Extraído: High Point Academia
+2026-01-28 16:29:06 [DEBUG]   [15] Extraído: Studio Livinng
+2026-01-28 16:29:06 [DEBUG]   [16] Extraído: PERSONAL S/A - Academia de Treinamento Funcional no Jardim São Paulo
+2026-01-28 16:29:07 [DEBUG]   [17] Extraído: Academia K2 Fitness Technology
+2026-01-28 16:29:07 [DEBUG]   [18] Extraído: BW Academia | Santana - Zona Norte - São Paulo
+2026-01-28 16:29:07 [DEBUG]   [19] Extraído: Smarkim Gym Academia
+2026-01-28 16:29:07 [DEBUG]   [20] Extraído: BIO RITMO Academia | Pedro Doll
+2026-01-28 16:29:07 [DEBUG] Limite de 20 resultados atingido.
+2026-01-28 16:29:07 [INFO] Total extraído para 'academia': 20 estabelecimentos.
+2026-01-28 16:29:07 [INFO] Coleta de 'academia' concluída: 20 estabelecimentos encontrados.
+2026-01-28 16:29:07 [INFO] ----------------------------------------
+2026-01-28 16:29:07 [INFO] BUSCANDO: RESTAURANTE
+2026-01-28 16:29:07 [INFO] Termo de busca: 'restaurantes em São Paulo'
+2026-01-28 16:29:07 [INFO] ----------------------------------------
+2026-01-28 16:29:07 [INFO] Acessando Google Maps para busca: 'restaurantes em São Paulo'
+2026-01-28 16:29:08 [DEBUG] Campo de busca encontrado.
+2026-01-28 16:29:08 [INFO] Busca realizada: 'restaurantes em São Paulo'
+2026-01-28 16:29:10 [DEBUG] Feed de resultados carregado com sucesso.
+2026-01-28 16:29:12 [DEBUG] Iniciando scroll no painel de resultados...
+2026-01-28 16:29:14 [DEBUG] Scroll 1/5 realizado.
+2026-01-28 16:29:16 [DEBUG] Scroll 2/5 realizado.
+2026-01-28 16:29:18 [DEBUG] Scroll 3/5 realizado.
+2026-01-28 16:29:20 [DEBUG] Scroll 4/5 realizado.
+2026-01-28 16:29:22 [DEBUG] Scroll 5/5 realizado.
+2026-01-28 16:29:22 [INFO] Scroll completo: 5 iterações realizadas.
+2026-01-28 16:29:22 [INFO] Encontrados 40 resultados para 'restaurante'.
+2026-01-28 16:29:22 [DEBUG]   [1] Extraído: Restaurante Dona Florinda
+2026-01-28 16:29:23 [DEBUG]   [2] Extraído: Lassù
+2026-01-28 16:29:23 [DEBUG]   [3] Extraído: Famiglia Mancini Trattoria
+2026-01-28 16:29:23 [DEBUG]   [4] Extraído: La Mordida
+2026-01-28 16:29:24 [DEBUG]   [5] Extraído: Rainha da Jovita
+2026-01-28 16:29:24 [DEBUG]   [6] Extraído: La Ficazza
+2026-01-28 16:29:24 [DEBUG]   [7] Extraído: Sabor de Santana
+2026-01-28 16:29:25 [DEBUG]   [8] Extraído: LeLui Bar e Cozinha
+2026-01-28 16:29:25 [DEBUG]   [9] Extraído: Dom ramiro
+2026-01-28 16:29:25 [DEBUG]   [10] Extraído: Angusteria
+2026-01-28 16:29:26 [DEBUG]   [11] Extraído: Restaurante Nova Zuquim (Alto de Santana)
+2026-01-28 16:29:26 [DEBUG]   [12] Extraído: Santo Mar Restaurante — Unidade Santana
+2026-01-28 16:29:26 [DEBUG]   [13] Extraído: Salvi Café e Cozinha - Santana
+2026-01-28 16:29:27 [DEBUG]   [14] Extraído: Pecorino Cucina Mediterranea Braz Leme: Restaurante, Delivery São Paulo SP
+2026-01-28 16:29:27 [DEBUG]   [15] Extraído: Una Rooftop Restaurante & Bar
+2026-01-28 16:29:28 [DEBUG]   [16] Extraído: Coco Bambu
+2026-01-28 16:29:28 [DEBUG]   [17] Extraído: Restaurante Fulô - Cozinha Regional
+2026-01-28 16:29:28 [DEBUG]   [18] Extraído: La Braciera Pizzaria - Pizza Napoletana
+2026-01-28 16:29:29 [DEBUG]   [19] Extraído: Quintal Brasil
+2026-01-28 16:29:29 [DEBUG]   [20] Extraído: Point Santana
+2026-01-28 16:29:29 [DEBUG] Limite de 20 resultados atingido.
+2026-01-28 16:29:29 [INFO] Total extraído para 'restaurante': 20 estabelecimentos.
+2026-01-28 16:29:29 [INFO] Coleta de 'restaurante' concluída: 20 estabelecimentos encontrados.
+2026-01-28 16:29:29 [INFO] ----------------------------------------
+2026-01-28 16:29:29 [INFO] BUSCANDO: SORVETERIA
+2026-01-28 16:29:29 [INFO] Termo de busca: 'sorveterias em São Paulo'
+2026-01-28 16:29:29 [INFO] ----------------------------------------
+2026-01-28 16:29:29 [INFO] Acessando Google Maps para busca: 'sorveterias em São Paulo'
+2026-01-28 16:29:29 [DEBUG] Campo de busca encontrado.
+2026-01-28 16:29:30 [INFO] Busca realizada: 'sorveterias em São Paulo'
+2026-01-28 16:29:31 [DEBUG] Feed de resultados carregado com sucesso.
+2026-01-28 16:29:33 [DEBUG] Iniciando scroll no painel de resultados...
+2026-01-28 16:29:35 [DEBUG] Scroll 1/5 realizado.
+2026-01-28 16:29:37 [DEBUG] Scroll 2/5 realizado.
+2026-01-28 16:29:39 [DEBUG] Scroll 3/5 realizado.
+2026-01-28 16:29:41 [DEBUG] Scroll 4/5 realizado.
+2026-01-28 16:29:43 [DEBUG] Scroll 5/5 realizado.
+2026-01-28 16:29:43 [INFO] Scroll completo: 5 iterações realizadas.
+2026-01-28 16:29:43 [INFO] Encontrados 40 resultados para 'sorveteria'.
+2026-01-28 16:29:44 [DEBUG]   [1] Extraído: Dezato Gelato - Augusto Tolle
+2026-01-28 16:29:44 [DEBUG]   [2] Extraído: Latte di Fiori
+2026-01-28 16:29:44 [DEBUG]   [3] Extraído: Paleteria paulista - unidade Santana
+2026-01-28 16:29:45 [DEBUG]   [4] Extraído: Sou ice - Sorvetes e Congelados
+2026-01-28 16:29:45 [DEBUG]   [5] Extraído: Sorvetes Rochinha Santana
+2026-01-28 16:29:45 [DEBUG]   [6] Extraído: Candy Village Sorvete Infancia vintage
+2026-01-28 16:29:45 [DEBUG]   [7] Extraído: Bacio di Latte - Augusto Tolle
+2026-01-28 16:29:46 [DEBUG]   [8] Extraído: Gelato Borelli Santana
+2026-01-28 16:29:46 [DEBUG]   [9] Extraído: Lambisk Sorvetes
+2026-01-28 16:29:46 [DEBUG]   [10] Extraído: Frida & Mina Sorveteria
+2026-01-28 16:29:47 [DEBUG]   [11] Extraído: OGGI SORVETES PARADA INGLESA
+2026-01-28 16:29:47 [DEBUG]   [12] Extraído: Dezato Gelato - Braz Leme
+2026-01-28 16:29:47 [DEBUG]   [13] Extraído: The Best Açaí - Água Fria
+2026-01-28 16:29:47 [DEBUG]   [14] Extraído: Sorveteria Lafer & Açaí
+2026-01-28 16:29:48 [DEBUG]   [15] Extraído: Sou Ice Santa Teresinha - Sorvetes e Congelados
+2026-01-28 16:29:48 [DEBUG]   [16] Extraído: Sorveteria do Centro
+2026-01-28 16:29:48 [DEBUG]   [17] Extraído: Bacio di Latte Gelato Puro
+2026-01-28 16:29:49 [DEBUG]   [18] Extraído: Paraiso dos Sorvetes
+2026-01-28 16:29:49 [DEBUG]   [19] Extraído: Sorvete Vintage - Sorvete para eventos | Açaí e Milkshake
+2026-01-28 16:29:49 [DEBUG]   [20] Extraído: Tutti Crema Gelato
+2026-01-28 16:29:49 [DEBUG] Limite de 20 resultados atingido.
+2026-01-28 16:29:49 [INFO] Total extraído para 'sorveteria': 20 estabelecimentos.
+2026-01-28 16:29:49 [INFO] Coleta de 'sorveteria' concluída: 20 estabelecimentos encontrados.
+2026-01-28 16:29:49 [INFO] ============================================================
+2026-01-28 16:29:49 [INFO] TOTAL de estabelecimentos coletados: 60
+2026-01-28 16:29:49 [INFO] Salvando resultados em JSON...
+2026-01-28 16:29:49 [INFO] Arquivo JSON salvo com sucesso: c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\resultados.json
+2026-01-28 16:29:49 [INFO] Gerando planilha Excel...
+2026-01-28 16:29:49 [INFO] Planilha Excel salva com sucesso: c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\resultados.xlsx
+2026-01-28 16:29:52 [INFO] Navegador fechado com sucesso.
+2026-01-28 16:29:52 [INFO] ============================================================
+2026-01-28 16:29:52 [INFO] AUTOMAÇÃO FINALIZADA — Tempo total: 69.6s
+2026-01-28 16:29:52 [INFO] Resultados: 60 estabelecimentos
+2026-01-28 16:29:52 [INFO] Arquivos gerados: c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\resultados.json
+2026-01-28 16:29:52 [INFO]                   c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\resultados.xlsx
+2026-01-28 16:29:52 [INFO] Log completo:     c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\automation.log
+2026-01-28 16:29:52 [INFO] ============================================================
+2026-01-28 16:35:59 [INFO] ============================================================
+2026-01-28 16:35:59 [INFO] INÍCIO DA AUTOMAÇÃO RPA - GOOGLE MAPS
+2026-01-28 16:35:59 [INFO] Cidade alvo: São Paulo
+2026-01-28 16:35:59 [INFO] Tipos de estabelecimento: ['academia', 'restaurante', 'sorveteria']
+2026-01-28 16:35:59 [INFO] Máximo por tipo: 20
+2026-01-28 16:35:59 [INFO] ============================================================
+2026-01-28 16:35:59 [INFO] Inicializando o Chrome WebDriver...
+2026-01-28 16:35:59 [DEBUG] Modo visível ativado (com interface gráfica).
+2026-01-28 16:36:00 [INFO] Chrome WebDriver inicializado com sucesso.
+2026-01-28 16:36:00 [INFO] ----------------------------------------
+2026-01-28 16:36:00 [INFO] BUSCANDO: ACADEMIA
+2026-01-28 16:36:00 [INFO] Termo de busca: 'academias em São Paulo'
+2026-01-28 16:36:00 [INFO] ----------------------------------------
+2026-01-28 16:36:00 [INFO] Acessando Google Maps para busca: 'academias em São Paulo'
+2026-01-28 16:36:02 [DEBUG] Campo de busca encontrado.
+2026-01-28 16:36:07 [INFO] Busca realizada: 'academias em São Paulo'
+2026-01-28 16:36:09 [DEBUG] Feed de resultados carregado.
+2026-01-28 16:36:14 [DEBUG] Iniciando scroll no painel de resultados...
+2026-01-28 16:36:16 [DEBUG] Scroll 1/5 realizado.
+2026-01-28 16:36:18 [DEBUG] Scroll 2/5 realizado.
+2026-01-28 16:36:20 [DEBUG] Scroll 3/5 realizado.
+2026-01-28 16:36:22 [DEBUG] Scroll 4/5 realizado.
+2026-01-28 16:36:24 [DEBUG] Scroll 5/5 realizado.
+2026-01-28 16:36:24 [INFO] Scroll completo: 5 iterações realizadas.
+2026-01-28 16:36:24 [INFO] Encontrados 36 resultados para 'academia'.
+2026-01-28 16:36:24 [DEBUG]   [1] Extraído: BIO RITMO Academia | Pedro Doll
+2026-01-28 16:36:24 [DEBUG]   [2] Extraído: 30'fit - Treinamento Funcional
+2026-01-28 16:36:25 [DEBUG]   [3] Extraído: K1 GYM SANTANA
+2026-01-28 16:36:25 [DEBUG]   [4] Extraído: BlueFit Santana
+2026-01-28 16:36:25 [DEBUG]   [5] Extraído: Black Fitness Club
+2026-01-28 16:36:25 [DEBUG]   [6] Extraído: Tracer Parkour - Santana
+2026-01-28 16:36:26 [DEBUG]   [7] Extraído: Health Academy
+2026-01-28 16:36:26 [DEBUG]   [8] Extraído: Academia Butterfly
+2026-01-28 16:36:26 [DEBUG]   [9] Extraído: Silver | Fitness & Spa | Santana - Zona Norte - SP
+2026-01-28 16:36:26 [DEBUG]   [10] Extraído: Academia C4 GYM - Unid. Santana
+2026-01-28 16:36:27 [DEBUG]   [11] Extraído: Studio JD Treinos Coletivos
+2026-01-28 16:36:27 [DEBUG]   [12] Extraído: Academia Acqua Ville
+2026-01-28 16:36:27 [DEBUG]   [13] Extraído: 30'fit - Treinamento Funcional
+2026-01-28 16:36:27 [DEBUG]   [14] Extraído: High Point Academia
+2026-01-28 16:36:28 [DEBUG]   [15] Extraído: Studio Livinng
+2026-01-28 16:36:28 [DEBUG]   [16] Extraído: PERSONAL S/A - Academia de Treinamento Funcional no Jardim São Paulo
+2026-01-28 16:36:28 [DEBUG]   [17] Extraído: Academia K2 Fitness Technology
+2026-01-28 16:36:28 [DEBUG]   [18] Extraído: BW Academia | Santana - Zona Norte - São Paulo
+2026-01-28 16:36:29 [DEBUG]   [19] Extraído: Smarkim Gym Academia
+2026-01-28 16:36:29 [DEBUG]   [20] Extraído: BIO RITMO Academia | Pedro Doll
+2026-01-28 16:36:29 [DEBUG] Limite de 20 resultados atingido.
+2026-01-28 16:36:29 [INFO] Total extraído para 'academia': 20 estabelecimentos.
+2026-01-28 16:36:29 [INFO] Coleta de 'academia' concluída: 20 estabelecimentos encontrados.
+2026-01-28 16:36:29 [INFO] ----------------------------------------
+2026-01-28 16:36:29 [INFO] BUSCANDO: RESTAURANTE
+2026-01-28 16:36:29 [INFO] Termo de busca: 'restaurantes em São Paulo'
+2026-01-28 16:36:29 [INFO] ----------------------------------------
+2026-01-28 16:36:29 [INFO] Acessando Google Maps para busca: 'restaurantes em São Paulo'
+2026-01-28 16:36:30 [DEBUG] Campo de busca encontrado.
+2026-01-28 16:36:35 [INFO] Busca realizada: 'restaurantes em São Paulo'
+2026-01-28 16:36:37 [DEBUG] Feed de resultados carregado.
+2026-01-28 16:36:42 [DEBUG] Iniciando scroll no painel de resultados...
+2026-01-28 16:36:44 [DEBUG] Scroll 1/5 realizado.
+2026-01-28 16:36:46 [DEBUG] Scroll 2/5 realizado.
+2026-01-28 16:36:48 [DEBUG] Scroll 3/5 realizado.
+2026-01-28 16:36:50 [DEBUG] Scroll 4/5 realizado.
+2026-01-28 16:36:52 [DEBUG] Scroll 5/5 realizado.
+2026-01-28 16:36:52 [INFO] Scroll completo: 5 iterações realizadas.
+2026-01-28 16:36:52 [INFO] Encontrados 40 resultados para 'restaurante'.
+2026-01-28 16:36:52 [DEBUG]   [1] Extraído: Restaurante Dona Florinda
+2026-01-28 16:36:53 [DEBUG]   [2] Extraído: Lassù
+2026-01-28 16:36:53 [DEBUG]   [3] Extraído: Famiglia Mancini Trattoria
+2026-01-28 16:36:53 [DEBUG]   [4] Extraído: La Mordida
+2026-01-28 16:36:54 [DEBUG]   [5] Extraído: Rainha da Jovita
+2026-01-28 16:36:54 [DEBUG]   [6] Extraído: La Ficazza
+2026-01-28 16:36:54 [DEBUG]   [7] Extraído: Sabor de Santana
+2026-01-28 16:36:55 [DEBUG]   [8] Extraído: LeLui Bar e Cozinha
+2026-01-28 16:36:55 [DEBUG]   [9] Extraído: Dom ramiro
+2026-01-28 16:36:55 [DEBUG]   [10] Extraído: Angusteria
+2026-01-28 16:36:56 [DEBUG]   [11] Extraído: Restaurante Nova Zuquim (Alto de Santana)
+2026-01-28 16:36:56 [DEBUG]   [12] Extraído: Santo Mar Restaurante — Unidade Santana
+2026-01-28 16:36:56 [DEBUG]   [13] Extraído: Salvi Café e Cozinha - Santana
+2026-01-28 16:36:57 [DEBUG]   [14] Extraído: Pecorino Cucina Mediterranea Braz Leme: Restaurante, Delivery São Paulo SP
+2026-01-28 16:36:57 [DEBUG]   [15] Extraído: Una Rooftop Restaurante & Bar
+2026-01-28 16:36:57 [DEBUG]   [16] Extraído: Restaurante Fulô - Cozinha Regional
+2026-01-28 16:36:58 [DEBUG]   [17] Extraído: La Braciera Pizzaria - Pizza Napoletana
+2026-01-28 16:36:58 [DEBUG]   [18] Extraído: Quintal Brasil
+2026-01-28 16:36:58 [DEBUG]   [19] Extraído: Point Santana
+2026-01-28 16:36:59 [DEBUG]   [20] Extraído: Restaurante Coco Bambu Anhembi
+2026-01-28 16:36:59 [DEBUG] Limite de 20 resultados atingido.
+2026-01-28 16:36:59 [INFO] Total extraído para 'restaurante': 20 estabelecimentos.
+2026-01-28 16:36:59 [INFO] Coleta de 'restaurante' concluída: 20 estabelecimentos encontrados.
+2026-01-28 16:36:59 [INFO] ----------------------------------------
+2026-01-28 16:36:59 [INFO] BUSCANDO: SORVETERIA
+2026-01-28 16:36:59 [INFO] Termo de busca: 'sorveterias em São Paulo'
+2026-01-28 16:36:59 [INFO] ----------------------------------------
+2026-01-28 16:36:59 [INFO] Acessando Google Maps para busca: 'sorveterias em São Paulo'
+2026-01-28 16:36:59 [DEBUG] Campo de busca encontrado.
+2026-01-28 16:37:05 [INFO] Busca realizada: 'sorveterias em São Paulo'
+2026-01-28 16:37:06 [DEBUG] Feed de resultados carregado.
+2026-01-28 16:37:11 [DEBUG] Iniciando scroll no painel de resultados...
+2026-01-28 16:37:13 [DEBUG] Scroll 1/5 realizado.
+2026-01-28 16:37:15 [DEBUG] Scroll 2/5 realizado.
+2026-01-28 16:37:17 [DEBUG] Scroll 3/5 realizado.
+2026-01-28 16:37:19 [DEBUG] Scroll 4/5 realizado.
+2026-01-28 16:37:21 [DEBUG] Scroll 5/5 realizado.
+2026-01-28 16:37:21 [INFO] Scroll completo: 5 iterações realizadas.
+2026-01-28 16:37:21 [INFO] Encontrados 40 resultados para 'sorveteria'.
+2026-01-28 16:37:22 [DEBUG]   [1] Extraído: Dezato Gelato - Augusto Tolle
+2026-01-28 16:37:22 [DEBUG]   [2] Extraído: Latte di Fiori
+2026-01-28 16:37:22 [DEBUG]   [3] Extraído: Paleteria paulista - unidade Santana
+2026-01-28 16:37:23 [DEBUG]   [4] Extraído: Sou ice - Sorvetes e Congelados
+2026-01-28 16:37:23 [DEBUG]   [5] Extraído: Sorvetes Rochinha Santana
+2026-01-28 16:37:23 [DEBUG]   [6] Extraído: Candy Village Sorvete Infancia vintage
+2026-01-28 16:37:24 [DEBUG]   [7] Extraído: Gelato Borelli Santana
+2026-01-28 16:37:24 [DEBUG]   [8] Extraído: Bacio di Latte - Augusto Tolle
+2026-01-28 16:37:24 [DEBUG]   [9] Extraído: Lambisk Sorvetes
+2026-01-28 16:37:24 [DEBUG]   [10] Extraído: Frida & Mina Sorveteria
+2026-01-28 16:37:25 [DEBUG]   [11] Extraído: OGGI SORVETES PARADA INGLESA
+2026-01-28 16:37:25 [DEBUG]   [12] Extraído: Dezato Gelato - Braz Leme
+2026-01-28 16:37:25 [DEBUG]   [13] Extraído: The Best Açaí - Água Fria
+2026-01-28 16:37:26 [DEBUG]   [14] Extraído: Sorveteria Lafer & Açaí
+2026-01-28 16:37:26 [DEBUG]   [15] Extraído: Sou Ice Santa Teresinha - Sorvetes e Congelados
+2026-01-28 16:37:26 [DEBUG]   [16] Extraído: Sorveteria do Centro
+2026-01-28 16:37:27 [DEBUG]   [17] Extraído: Bacio di Latte Gelato Puro
+2026-01-28 16:37:27 [DEBUG]   [18] Extraído: Paraiso dos Sorvetes
+2026-01-28 16:37:27 [DEBUG]   [19] Extraído: Sorvete Vintage - Sorvete para eventos | Açaí e Milkshake
+2026-01-28 16:37:27 [DEBUG]   [20] Extraído: Tutti Crema Gelato
+2026-01-28 16:37:27 [DEBUG] Limite de 20 resultados atingido.
+2026-01-28 16:37:27 [INFO] Total extraído para 'sorveteria': 20 estabelecimentos.
+2026-01-28 16:37:27 [INFO] Coleta de 'sorveteria' concluída: 20 estabelecimentos encontrados.
+2026-01-28 16:37:27 [INFO] ============================================================
+2026-01-28 16:37:27 [INFO] TOTAL de estabelecimentos coletados: 60
+2026-01-28 16:37:27 [INFO] Salvando resultados em JSON...
+2026-01-28 16:37:27 [INFO] Arquivo JSON salvo com sucesso: c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\resultados.json
+2026-01-28 16:37:27 [INFO] Gerando planilha Excel...
+2026-01-28 16:37:27 [INFO] Planilha Excel salva com sucesso: c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\resultados.xlsx
+2026-01-28 16:37:30 [INFO] Navegador fechado com sucesso.
+2026-01-28 16:37:30 [INFO] ============================================================
+2026-01-28 16:37:30 [INFO] AUTOMAÇÃO FINALIZADA — Tempo total: 91.4s
+2026-01-28 16:37:30 [INFO] Resultados: 60 estabelecimentos
+2026-01-28 16:37:30 [INFO] Arquivos gerados: c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\resultados.json
+2026-01-28 16:37:30 [INFO]                   c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\resultados.xlsx
+2026-01-28 16:37:30 [INFO] Log completo:     c:\Users\bruno.su\Desktop\Nova pasta\rpa-google-maps\automation.log
+2026-01-28 16:37:30 [INFO] ============================================================
