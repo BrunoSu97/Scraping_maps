@@ -226,8 +226,11 @@ def extract_results(driver: webdriver.Chrome, tipo: str) -> list:
     """
     Extrai dados dos estabelecimentos listados no feed de resultados.
 
-    Para cada resultado encontrado no painel, tenta extrair:
-      - Nome (via atributo aria-label do link)
+    Utiliza JavaScript para obter cada div-card filho direto do feed,
+    garantindo que o texto extraído seja individual (não do feed inteiro).
+
+    Para cada card encontrado no painel, tenta extrair:
+      - Nome (via atributo aria-label do link <a> dentro do card)
       - Nota/rating (via parsing de texto com regex)
       - Quantidade de avaliações (via parsing de texto com regex)
       - Endereço completo (via heurística de padrões brasileiros)
@@ -244,13 +247,27 @@ def extract_results(driver: webdriver.Chrome, tipo: str) -> list:
     try:
         feed = driver.find_element(By.CSS_SELECTOR, config.FEED_SELECTOR)
 
-        # Localiza todos os links de estabelecimentos dentro do feed
-        items = feed.find_elements(
-            By.CSS_SELECTOR, config.PLACE_LINK_SELECTOR
-        )
-        logger.info(f"Encontrados {len(items)} resultados para '{tipo}'.")
+        # Usa JavaScript para obter as divs filhas diretas do feed
+        # que contêm um link de estabelecimento (/maps/place/).
+        # Isso garante que cada card seja acessado individualmente,
+        # evitando capturar o texto do feed inteiro.
+        cards = driver.execute_script("""
+            var feed = arguments[0];
+            var children = feed.children;
+            var cards = [];
+            for (var i = 0; i < children.length; i++) {
+                var child = children[i];
+                if (child.tagName === 'DIV' &&
+                    child.querySelector('a[href*="/maps/place/"]')) {
+                    cards.push(child);
+                }
+            }
+            return cards;
+        """, feed)
 
-        for idx, item in enumerate(items):
+        logger.info(f"Encontrados {len(cards)} cards para '{tipo}'.")
+
+        for idx, card in enumerate(cards):
             # Respeita o limite máximo de resultados por tipo
             if len(results) >= config.MAX_RESULTADOS_POR_TIPO:
                 logger.debug(
@@ -259,7 +276,7 @@ def extract_results(driver: webdriver.Chrome, tipo: str) -> list:
                 break
 
             try:
-                data = _extract_single_result(item, tipo)
+                data = _extract_single_result(driver, card, tipo)
                 if data:
                     results.append(data)
                     logger.debug(
@@ -286,31 +303,41 @@ def extract_results(driver: webdriver.Chrome, tipo: str) -> list:
     return results
 
 
-def _extract_single_result(item, tipo: str) -> dict:
+def _extract_single_result(driver: webdriver.Chrome, card, tipo: str) -> dict:
     """
     Extrai os dados de um único card de resultado do Google Maps.
 
-    Estratégia de extração:
-      1. Nome: atributo aria-label do elemento <a>
-      2. Texto completo: obtido do container pai do card
-      3. Nota, avaliações e endereço: parseados via regex do texto
+    Recebe o elemento div do card individual (filho direto do feed),
+    localiza o link <a> interno para obter o nome, e usa o texto
+    do próprio card (isolado) para extrair nota, avaliações e endereço.
 
     Args:
-        item: Elemento Selenium (link <a>) do estabelecimento.
+        driver: Instância do WebDriver (para execução de JavaScript).
+        card: Elemento Selenium (div) do card individual.
         tipo: Tipo do estabelecimento.
 
     Returns:
         dict: Dados do estabelecimento ou None se nome não encontrado.
     """
-    # --- Nome ---
-    nome = item.get_attribute("aria-label")
+    # --- Nome (via aria-label do link <a> dentro do card) ---
+    try:
+        link = card.find_element(By.CSS_SELECTOR, config.PLACE_LINK_SELECTOR)
+        nome = link.get_attribute("aria-label")
+    except NoSuchElementException:
+        logger.debug("Link do estabelecimento não encontrado no card.")
+        return None
+
     if not nome or nome.strip() == "":
         return None
     nome = nome.strip()
 
-    # --- Texto do container pai ---
-    # O card do resultado contém nome, nota, avaliações, categoria e endereço
-    text_content = _get_card_text(item)
+    # --- Texto individual do card via JavaScript ---
+    # Usa innerText para obter apenas o texto visível deste card específico,
+    # garantindo que nota/avaliações/endereço sejam deste estabelecimento.
+    text_content = driver.execute_script(
+        "return arguments[0].innerText || '';", card
+    )
+    logger.debug(f"  Texto do card '{nome}': {text_content[:120]}...")
 
     # --- Nota (rating) ---
     nota = _extract_rating(text_content)
@@ -319,7 +346,8 @@ def _extract_single_result(item, tipo: str) -> dict:
     avaliacoes = _extract_reviews(text_content)
 
     # --- Endereço ---
-    endereco = _extract_address(text_content)
+    endereco_raw = _extract_address(text_content)
+    endereco = _clean_address(endereco_raw)
 
     return {
         "nome": nome,
@@ -328,51 +356,6 @@ def _extract_single_result(item, tipo: str) -> dict:
         "avaliacoes": avaliacoes,
         "endereco": endereco,
     }
-
-
-def _get_card_text(item) -> str:
-    """
-    Obtém o texto completo do card de resultado.
-
-    Tenta múltiplas estratégias para encontrar o container correto:
-      1. Ancestral com classe conhecida do Google Maps (ex: Nv2PK)
-      2. Pai direto do elemento
-      3. Texto do próprio elemento como fallback
-
-    Args:
-        item: Elemento Selenium do link do estabelecimento.
-
-    Returns:
-        str: Texto completo do card.
-    """
-    # Estratégia 1: Busca o container mais próximo que contém todo o card
-    # O Google Maps geralmente usa divs com classes específicas
-    try:
-        container = item.find_element(
-            By.XPATH, "./ancestor::div[contains(@jsaction,'mouseover')]"
-        )
-        return container.text
-    except NoSuchElementException:
-        pass
-
-    # Estratégia 2: Sobe 3 níveis no DOM para capturar o card completo
-    try:
-        parent = item.find_element(By.XPATH, "./../../..")
-        text = parent.text
-        if len(text) > 10:
-            return text
-    except NoSuchElementException:
-        pass
-
-    # Estratégia 3: Pai direto
-    try:
-        parent = item.find_element(By.XPATH, "./..")
-        return parent.text
-    except NoSuchElementException:
-        pass
-
-    # Fallback: texto do próprio elemento
-    return item.text
 
 
 def _extract_rating(text: str) -> str:
@@ -489,6 +472,74 @@ def _extract_address(text: str) -> str:
                 return line
 
     return "N/A"
+
+
+def _clean_address(raw_address: str) -> str:
+    """
+    Limpa e padroniza o endereço extraído do card do Google Maps.
+
+    O Google Maps exibe o endereço no card no formato:
+      "Categoria ·  · R. Nome da Rua, 123"
+    ou "Categoria · 123 Rua Nome da Rua"
+
+    Esta função:
+      1. Remove o prefixo de categoria (ex: "Academia · ", "Sorvete · ")
+      2. Corrige número antes do logradouro (ex: "564 Rua X" -> "Rua X, 564")
+      3. Remove artefatos de formatação (dois-pontos soltos, espaços extras)
+
+    Args:
+        raw_address: Endereço bruto extraído do card.
+
+    Returns:
+        str: Endereço padronizado no formato "Rua/Av. Nome, Número".
+    """
+    if not raw_address or raw_address == "N/A":
+        return raw_address
+
+    # --- Etapa 1: Separar por "·" e localizar a parte com o endereço ---
+    parts = [p.strip() for p in raw_address.split('·') if p.strip()]
+
+    # Prefixos de logradouro reconhecidos
+    street_re = (
+        r'(?:R\.|Av\.|Al\.|Tv\.|Pç\.|Rod\.|Estr\.'
+        r'|Rua|Avenida|Alameda|Praça|Travessa|Rodovia|Estrada)'
+    )
+
+    # Procura a parte que contém um prefixo de logradouro
+    address = None
+    for part in parts:
+        if re.search(street_re, part):
+            address = part
+            break
+
+    # Fallback: última parte com dígitos (provavelmente número do endereço)
+    if not address:
+        for part in reversed(parts):
+            if re.search(r'\d', part):
+                address = part
+                break
+
+    # Último recurso: última parte não vazia
+    if not address:
+        address = parts[-1] if parts else raw_address
+
+    # --- Etapa 2: Corrigir número antes do logradouro ---
+    # Ex: "564 Rua Pedro Doll" -> "Rua Pedro Doll, 564"
+    match = re.match(
+        rf'^(\d[\d\s]*?)\s+({street_re}\s+.+)$', address
+    )
+    if match:
+        numero = match.group(1).strip()
+        logradouro = match.group(2).strip()
+        address = f"{logradouro}, {numero}"
+
+    # --- Etapa 3: Limpar artefatos ---
+    # Remove dois-pontos soltos (ex: "Rua : Conselheiro" -> "Rua Conselheiro")
+    address = re.sub(r'\s*:\s*', ' ', address)
+    # Remove espaços duplicados
+    address = re.sub(r'\s+', ' ', address).strip()
+
+    return address
 
 
 # ==========================================================================
